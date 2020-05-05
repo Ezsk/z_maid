@@ -1,0 +1,27 @@
+[
+  {
+    "abstract": "base_zmd_item_zm_r",
+    "type": "recipe",
+    "//": "■ アイテムレシピ_共通事項  autolearn:false 自動習得の無効",
+    "autolearn" : false
+  }
+
+  ,{
+    "abstract": "base_zmd_blob_repair",
+    "type": "recipe",
+    
+    "//": "■ ブロブ修復レシピ_共通事項",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "firstaid",
+    "difficulty": 1,
+    
+    "time": 9000,
+    "autolearn" : false,
+    "reversible": false,
+    "flags": [ "BLIND_EASY" ]
+  }
+
+
+
+]

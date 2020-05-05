@@ -1,0 +1,162 @@
+[
+  {
+    "//": "ゾンビメイド１号のドロップアイテム 1st",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_1st_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_1st"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド１号のドロップアイテム 1st_A1",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_1st_A1_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_1st_A1"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド１号のドロップアイテム 1st_A2",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_1st_A2_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_1st_A2"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド１号のドロップアイテム 1st_A3",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_1st_A3_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_1st_A3"}
+    ]
+  },
+
+
+
+
+
+
+  {
+    "//": "ゾンビメイド２号のドロップアイテム 2nd",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_2nd_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_2nd"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド２号のドロップアイテム 2nd_A1",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_2nd_A1_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_2nd_A1"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド２号のドロップアイテム 2nd_A2",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_2nd_A2_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_2nd_A2"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド２号のドロップアイテム 2nd_A3",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_2nd_A3_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_2nd_A3"}
+    ]
+  },
+
+
+
+
+
+
+  {
+    "//": "ゾンビメイド３号のドロップアイテム 3rd",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_3rd_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_3rd"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド３号のドロップアイテム 3rd_A1",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_3rd_A1_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_3rd_A1"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド３号のドロップアイテム 3rd_A2",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_3rd_A2_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_3rd_A2"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド３号のドロップアイテム 3rd_A3",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_3rd_A3_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_3rd_A3"}
+    ]
+  },
+
+
+
+
+
+
+  {
+    "//": "ゾンビメイド４号のドロップアイテム 4th",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_4th_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_4th"}
+    ]
+  },
+  {
+    "//": "ゾンビメイド４号のドロップアイテム 4th_Neo",
+    "type" : "item_group",
+    "subtype": "collection",
+    "id" : "zmd_mon_z_maid_4th_Neo_drops",
+    "entries":
+    [
+        { "item": "zmd_repair_z_maid_4th_Neo"}
+    ]
+  }
+  
+
+]

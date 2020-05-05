@@ -1,0 +1,133 @@
+[
+  {
+    "type": "recipe",
+    "result": "zmd_craft_guide_maiden",
+    "//": "■本・メイドさんを作ろう！　レシピ",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "zmd_strange_book_fragment_3", 0 ] ],
+    
+    "components": [
+      [ [ "zmd_strange_book_fragment_1", 1 ] ],
+      [ [ "zmd_strange_book_fragment_2", 1 ] ],
+      [ [ "zmd_strange_book_fragment_3", 1 ] ],
+      [ [ "duct_tape", 20 ], [ "string_6", 1 ], [ "superglue", 1 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+
+
+  {
+    "type": "recipe",
+    "result": "zmd_bot_prototype_cleaner",
+    "//": "■試作お掃除ロボット(停止中)　レシピ",
+    
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "electronics", 5 ], [ "computer", 5 ] ],
+    "difficulty": 6,
+    
+    "time": 25000,
+    "reversible": true,
+    "decomp_learn": 7,
+    
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "acid", 3 ] ],
+      [ [ "blade", 2 ] ],
+      [ [ "plut_cell", 1 ] ],
+      [ [ "portal", 1 ] ],
+      [ [ "scrap", 8 ] ],
+      [ [ "motor", 1 ] ]
+    ]
+  },
+
+
+  {
+    "//": "■ゴーメイドバッグ　レシピ、分解によるアイテム取得用",
+    
+    "result": "zmd_go_maid_bag",
+    "type": "uncraft",
+    "time": 300,
+    
+    "components": [
+      [ [ "maid_dress", 1 ] ],
+      [ [ "maid_hat", 1 ] ],
+      [ [ "stockings", 1 ] ],
+      [ [ "panties", 1 ] ],
+      [ [ "bra", 1 ] ],
+      [ [ "dress_shoes", 1 ] ],
+      
+      [ [ "pockknife", 1 ] ],
+      [ [ "matches", 1 ] ],
+      [ [ "tailors_kit", 1 ] ],
+      [ [ "thread", 200 ] ]
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+
+
+  {
+    "//": "■改造棺桶　レシピ",
+    "type": "recipe",
+    "result": "zmd_coffin_ex",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 6000,
+    
+    "reversible": true,
+    "autolearn": true,
+    
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "2x4", 8 ] ],
+      [ [ "nail", 28 ] ],
+      [ [ "leather", 4 ] ]
+    ]
+  },
+
+
+  {
+    "abstract": "base_zmd_armor_r",
+    "type": "recipe",
+    "//": "■■ 服レシピ_共通事項  autolearn:自動習得の可否",
+    "category": "CC_ARMOR",
+    "skill_used": "tailor",
+    "autolearn" : true,
+    "reversible": true
+  },
+  {
+    "result": "zmd_dress_black",
+     "//": "■ドレス(黒色)",
+    "type": "recipe",
+    "copy-from": "base_zmd_armor_r",
+    
+    "subcategory": "CSC_ARMOR_SUIT",
+
+    "difficulty": 3,
+    "time": 120000,
+    "using": [ [ "filament", 30 ] ],
+    
+    "qualities": [
+      { "id": "SEW", "level": 1 }
+    ],
+    "components": [ [ [ "rag", 20 ] ] ]
+  }
+
+
+
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "type": "profession",
+        "ident": "noted_family",
+        "name": {
+            "male": "御曹司 (ﾏｯﾄﾞｻｲｴﾝﾃｨｽﾄの孫)",
+            "female": "令嬢 (ﾏｯﾄﾞｻｲｴﾝﾃｨｽﾄの孫)"
+        },
+        "description": "父が今際の際に教えてくれた事……祖父が研究・開発していたという人造人間…… \nゾンビメイドを召喚する装置が今、あなたの手の中にあります。",
+        "points": 3,
+        "traits": [
+        ],
+        "items": {
+            "both" : {
+                "items": [
+                  "pocketwatch",
+                  "knife_steak",
+                  
+                  "zmd_sleeping_z_maid_1st",
+                  "zmd_sleeping_z_maid_2nd",
+                  "zmd_sleeping_z_maid_3rd",
+                  "zmd_sleeping_z_maid_4th",
+                  "zmd_craft_guide_maiden"
+                ],
+                "entries": [
+                ]
+            },
+            "male": [
+                "briefcase",
+                "briefs",
+                "socks",
+                "dress_shoes",
+                "tie_skinny",
+                "tux"
+            ],
+            "female": [
+                "suitcase_m",
+                "zmd_panties_violet",
+                "zmd_bra_violet",
+                "dress_shoes",
+                "zmd_dress_black",
+                "jade_brooch"
+            ]
+        }
+    }
+]

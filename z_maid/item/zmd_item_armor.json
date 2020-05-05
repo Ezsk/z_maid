@@ -1,0 +1,53 @@
+[
+  {
+    "id": "zmd_go_maid_bag",
+    "type": "ARMOR",
+    "name": "ゴーメイドバッグ<color_light_blue>[z_maid]</color>",
+    "description": "お屋敷で仕事するのに忘れ物をしてしまった？ \n大丈夫！このゴーメイドバッグを分解すればすぐに使えるメイドセットで新人メイドさんを優しくサポート！",
+
+    "looks_like": "gobag",
+
+    "weight": 1400,
+    "volume": 16,
+    "price": 30000,
+    
+    "to_hit": -3,
+    "material": [ "cotton", "plastic" ],
+    "symbol": "[",
+    "color": "green",
+    "covers": [ "TORSO", "ARMS" ],
+    "coverage": 36,
+    "encumbrance": 25,
+    "warmth": 7,
+    "material_thickness": 2,
+    
+    "flags": [ "BELTED", "WATER_FRIENDLY" ],
+    "use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "zmd_dress_black",
+    "type": "ARMOR",
+    "name": "ドレス(黒色)<color_light_blue>[z_maid]</color>",
+    "color": "dark_gray",
+
+    "copy-from": "dress"
+  },
+  {
+    "id": "zmd_bra_violet",
+    "type": "ARMOR",
+    "name": "ブラジャー(スミレ色)<color_light_blue>[z_maid]</color>",
+    "color": "pink",
+
+    "copy-from": "bra"
+  },
+  {
+    "id": "zmd_panties_violet",
+    "type": "ARMOR",
+    "name": "パンティー(スミレ色)<color_light_blue>[z_maid]</color>",
+    "color": "pink",
+
+    "copy-from": "panties"
+  }
+
+
+]

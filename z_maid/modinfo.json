@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod_type": "SUPPLEMENTAL",
+    "ident": "z_maid",
+    "name": "ゾンビメイド",
+    "authors": [ "dou_naga_ojisan" ],
+    "description": "ゾンビメイドさん及び関連アイテムなどを追加します。 \nゾンビメイドさんに戦闘以外のサービスはあまり期待しないであげてくださいね。",
+    "dependencies": [ "more_classes_scenarios" ]
+  }
+]

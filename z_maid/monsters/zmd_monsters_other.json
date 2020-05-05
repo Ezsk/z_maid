@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mon_zmd_bot_prototype_cleaner",
+    "type": "MONSTER",
+    "name": "試作お掃除ロボット",
+    "description": "市販されていない試作品の掃除ロボットです。 \n床にある物を分解し、そのゴミはポータルの向こう側に廃棄されますので容量の心配をする必要はありません！ \n……ゴミはどこへ行ったのかですって？ \nそれはまだ研究中ですよ、ハハハ。",
+    "//": "これにはミ=ゴさんも激おこプンプン丸である",
+
+    "looks_like": "mon_hazmatbot",
+
+    "default_faction": "utility_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "size": "SMALL",
+    "hp": 50,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "R",
+    "color": "green",
+    
+    "aggression": 100,
+    "morale": 100,
+    
+    "melee_skill": 1,
+    "melee_cut": 0,
+    "armor_bash": 4,
+    "armor_cut": 8,
+
+    "revert_to_itype": "zmd_bot_prototype_cleaner",
+    "death_function": [ "EXPLODE" ],
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "NO_BREATHE", "FLIES", "ABSORBS" ]
+  }
+
+
+  ,{
+    "id": "mon_zmd_maid_thing",
+    "type": "MONSTER",
+    "name": "メイド",
+    "description": "ゾンビになっていない人間のメイドさんのようです……が、何か妙な違和感を感じます。",
+
+    "default_faction": "mutant",
+    "species": [ "NETHER", "HUMAN" ],
+    "diff": 1,
+    "size": "MEDIUM",
+    
+    "hp": 10,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "M",
+    "color": "white",
+    "aggression": 1,
+    "morale": 100,
+    
+    "starting_ammo": { "maid_dress": 1 },
+
+	"harvest": "exempt",
+    "special_attacks": [ [ "DOGTHING", 60 ] ],
+
+    "death_function": [ "BOOMER", "THING" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "WARM" ]
+  }
+
+
+
+
+]

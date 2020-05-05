@@ -1,0 +1,211 @@
+[
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_3rd",
+    "copy-from": "zmd_sleeping_z_maid_1st",
+    "//": "■ゾンビメイド３号(停止中)　レシピ",
+
+    "book_learn": [ [ "zmd_strange_book_fragment_3", 8 ], [ "zmd_craft_guide_maiden", 0 ] ],
+    
+    "using": [ [ "filament", 200 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 3}
+    ],
+    
+    "components": [
+      [ [ "human_flesh", 30 ] ],
+      [ [ "bone_human", 25 ] ],
+      [ [ "slime_scrap", 10 ] ],
+      [ [ "blood", 1 ] ],
+      [
+        [ "mutagen_bird", 2 ], [ "iv_mutagen_bird", 1 ]
+      ],
+      [ [ "transponder", 1 ] ],
+      [ [ "receiver", 1 ] ],
+      [ [ "antenna", 1 ] ],
+      [ [ "portal", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ],
+      [ [ "plut_cell", 1 ] ],
+      [ [ "mop", 1 ] ],
+      [ [ "glasses_eye", 1 ] ],
+      [ [ "bra", 1 ] ],
+      [ [ "panties", 1 ] ],
+      [ [ "stockings", 1 ] ],
+      [ [ "maid_dress", 1 ] ],
+      [ [ "maid_hat", 1 ] ],
+      [
+        [ "dress_shoes", 1 ], [ "boots", 1 ]
+      ]
+    ]
+  },
+
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_3rd_A1",
+    "copy-from": "base_zmd_item_zm_r",
+    "//": "■ゾンビメイド３号(停止中) Type_A1　レシピ",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "speech",
+    "difficulty": 1,
+    
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "zmd_strange_book_fragment_3", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd", 1 ] ],
+      [ [ "q_staff", 1 ] ]
+    ]
+  },
+
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_3rd_A2",
+    "copy-from": "base_zmd_item_zm_r",
+    "//": "■ゾンビメイド３号(停止中) Type_A2　レシピ　※基本型 → TypeA2 飛び級のケース",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "skills_required": [ [ "tailor", 4 ], [ "speech", 2 ] ],
+    
+    "time": 65000,
+    "reversible": false,
+    "book_learn": [ [ "zmd_strange_book_fragment_3", 4 ], [ "zmd_craft_guide_maiden", 0 ] ],
+    
+    "using": [ [ "filament", 50 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd", 1 ] ],
+      [ [ "warhammer", 1 ] ],
+      [ [ "bio_shock", 1 ] ],
+      [ [ "bio_faraday", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_3rd_A2",
+    "copy-from": "zmd_sleeping_z_maid_3rd_A2",
+    "id_suffix": "A1_to_A2",
+    "//": "■ゾンビメイド３号(停止中) Type_A2　レシピ　TypeA1 → TypeA2 のケース・副産物で六尺棒を戻す",
+    
+    "byproducts": [ [ "q_staff" ] ],
+    
+    "using": [ [ "filament", 50 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd_A1", 1 ] ],
+      [ [ "warhammer", 1 ] ],
+      [ [ "bio_shock", 1 ] ],
+      [ [ "bio_faraday", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ]
+    ]
+  },
+  {
+    "//": "■ゾンビメイド３号(停止中) Type_A2 → 基本型　分解専用レシピ",
+    
+    "result": "zmd_sleeping_z_maid_3rd_A2",
+    "type": "uncraft",
+    
+    "time": 50000,
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd", 1 ] ],
+      [ [ "warhammer", 1 ] ],
+      [ [ "bio_shock", 1 ] ],
+      [ [ "bio_faraday", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ]
+    ]
+  },
+
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_3rd_A3",
+    "copy-from": "base_zmd_item_zm_r",
+    "//": "■ゾンビメイド３号(停止中) Type_A3　レシピ",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "skills_required": [ [ "tailor", 4 ], [ "speech", 3 ] ],
+    
+    "time": 65000,
+    "reversible": false,
+    "book_learn": [ [ "zmd_craft_guide_maiden", 0 ] ],
+    
+    "using": [ [ "filament", 50 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd_A2", 1 ] ],
+      [ [ "bio_nanobots", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ]
+    ]
+  },
+  {
+    "//": "■ゾンビメイド３号(停止中) Type_A3 → 基本型　分解専用レシピ",
+    
+    "result": "zmd_sleeping_z_maid_3rd_A3",
+    "type": "uncraft",
+    
+    "time": 50000,
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_3rd", 1 ] ],
+      [ [ "warhammer", 1 ] ],
+      [ [ "bio_shock", 1 ] ],
+      [ [ "bio_faraday", 1 ] ],
+      [ [ "bio_nanobots", 1 ] ],
+      [
+        [ "bio_power_storage", 10 ], [ "bio_power_storage_mkII", 4 ]
+      ]
+    ]
+  }
+
+
+]

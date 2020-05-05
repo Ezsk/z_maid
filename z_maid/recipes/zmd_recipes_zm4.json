@@ -1,0 +1,95 @@
+[
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_4th",
+    "copy-from": "zmd_sleeping_z_maid_1st",
+    "//": "■ゾンビメイド４号(停止中)　レシピ",
+
+    "difficulty": 5,
+    "skills_required": [[ "electronics", 5 ], [ "tailor", 4 ]],
+    
+    "reversible": true,
+    "book_learn": [ [ "zmd_craft_guide_maiden", 4 ] ],
+    
+    "using": [ [ "filament", 200 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 3}
+    ],
+    
+    "components": [
+      [ [ "human_flesh", 30 ] ],
+      [ [ "bone_human", 25 ] ],
+      [ [ "slime_scrap", 10 ] ],
+      [ [ "blood", 1 ] ],
+      [
+        [ "mutagen_cattle", 2 ], [ "iv_mutagen_cattle", 1 ]
+      ],
+      [
+        [ "mutagen_medical", 2 ], [ "iv_mutagen_medical", 1 ]
+      ],
+      [ [ "transponder", 1 ] ],
+      [ [ "receiver", 1 ] ],
+      [ [ "antenna", 1 ] ],
+      [ [ "portal", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ],
+      [ [ "plut_cell", 1 ] ],
+      [ [ "bio_nanobots", 1 ] ],
+      [ [ "bio_razors", 1 ] ],
+      [ [ "bra", 1 ] ],
+      [ [ "panties", 1 ] ],
+      [ [ "stockings", 1 ] ],
+      [ [ "maid_dress", 1 ] ],
+      [ [ "maid_hat", 1 ] ],
+      [
+        [ "dress_shoes", 1 ], [ "boots", 1 ]
+      ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "zmd_sleeping_z_maid_4th_Neo",
+    "copy-from": "base_zmd_item_zm_r",
+    "//": "■ゾンビメイド４号(停止中) Type_Neo　レシピ",
+
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "skills_required": [ [ "tailor", 4 ], [ "speech", 4 ] ],
+    
+    "time": 65000,
+    "reversible": false,
+    "book_learn": [ [ "zmd_craft_guide_maiden", 9 ] ],
+    
+    "using": [ [ "filament", 50 ] ],
+    "qualities" : [
+      { "id": "SEW", "level": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "CUT_FINE", "level": 1}
+    ],
+    
+    "components": [
+      [ [ "zmd_sleeping_z_maid_4th", 1 ] ],
+      [ [ "bio_int_enhancer", 1 ] ],
+      [ [ "bio_memory", 1 ] ],
+      [ [ "bio_armor_head", 1 ] ],
+      [ [ "bio_armor_torso", 1 ] ],
+      [ [ "bio_armor_arms", 1 ] ],
+      [ [ "bio_armor_legs", 1 ] ],
+      [
+        [ "bio_power_storage", 5 ], [ "bio_power_storage_mkII", 2 ]
+      ]
+    ]
+  }
+
+
+
+
+
+]

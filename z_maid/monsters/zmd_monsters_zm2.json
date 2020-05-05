@@ -1,0 +1,164 @@
+[
+  {
+    "id": "mon_zmd_z_maid_2nd",
+    "type": "MONSTER",
+    "name": "ゾンビメイド２号",
+    "description": "禁断の技術で作られたゾンビメイド２号。 \n(装備：なし) \n\n元はお客様の対応用に作られました……接客はさっぱりでしたが今はゾンビのお相手をしています。",
+
+    "//": "※回避タイプ　猫",
+    "copy-from" : "mon_zmd_z_maid_1st",
+    "hp": 160,
+    "speed": 95,
+    
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "melee_cut": 2,
+    "armor_bash": 4,
+    "armor_cut": 4,
+    "armor_stab": 4,
+    "dodge": 3,
+    "vision_night": 10,
+    "special_attacks": [
+        { "type": "bite", "cooldown": 12 },
+        [ "scratch", 18 ],
+        [ "GRAB", 16 ]
+    ],
+    "attack_effs": [
+      { "id": "dazed", "duration": 8, "chance": 5 }
+      
+    ],
+
+    "revert_to_itype": "zmd_sleeping_z_maid_2nd",
+    "death_drops": "zmd_mon_z_maid_2nd_drops",
+    "death_function": [ "GUILT" ],
+    "flags": [
+      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_1", "CATFOOD", "CLIMBS"
+    ]
+  },
+  {
+    "id": "mon_zmd_z_maid_2nd_A1",
+    "type": "MONSTER",
+    "name": "ゾンビメイド２号",
+    "copy-from" : "mon_zmd_z_maid_2nd",
+    "description": "禁断の技術で作られたゾンビメイド２号。 \n(装備：ネイルナックル) \n\n元はお客様の対応用に作られました……接客はさっぱりでしたが今はゾンビのお相手をしています。",
+
+    "hp": 180,
+    "speed": 110,
+    "color": "brown",
+    
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "melee_dice_sides": 4,
+    "melee_cut": 4,
+    "armor_bash": 5,
+    "armor_cut": 5,
+    "armor_stab": 5,
+    "dodge": 4,
+    "vision_night": 14,
+    "special_attacks": [
+        { "type": "bite", "cooldown": 8 },
+        [ "scratch", 12 ],
+        [ "GRAB", 14 ]
+    ],
+    "attack_effs": [
+      { "id": "dazed", "duration": 8, "chance": 10 }
+      
+    ],
+    
+    "revert_to_itype": "zmd_sleeping_z_maid_2nd_A1",
+    "death_drops": "zmd_mon_z_maid_2nd_A1_drops",
+    "death_function": [ "GUILT" ],
+    "flags": [
+      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "CATFOOD", "CLIMBS"
+    ]
+  },
+  {
+    "id": "mon_zmd_z_maid_2nd_A2",
+    "type": "MONSTER",
+    "name": "ゾンビメイド２号",
+    "copy-from" : "mon_zmd_z_maid_2nd_A1",
+    "description": "禁断の技術で作られたゾンビメイド２号。 \n(装備：セスタス、特性：回避) \n\n元はお客様の対応用に作られました……接客はさっぱりでしたが今はゾンビのお相手をしています。",
+
+    "hp": 200,
+    "speed": 120,
+    "color": "brown_green",
+
+    "melee_skill": 5,
+    "melee_dice": 5,
+    "melee_dice_sides": 5,
+    "melee_cut": 6,
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "armor_stab": 6,
+    "armor_acid": 2,
+    "armor_fire": 2,
+    "dodge": 7,
+    "vision_night": 18,
+    "special_attacks": [
+        { "type": "bite", "cooldown": 6 },
+        { "type": "bite", "cooldown": 30, "accuracy": 4, "damage_max_instance": [ { "damage_type": "stab", "amount": 46, "armor_multiplier": 0.9 } ] },
+        [ "scratch", 8 ],
+        [ "GRAB", 12 ]
+    ],
+    "attack_effs": [
+      { "id": "dazed", "duration": 8, "chance": 15 }
+      
+    ],
+    
+    "revert_to_itype": "zmd_sleeping_z_maid_2nd_A2",
+    "death_drops": "zmd_mon_z_maid_2nd_A2_drops",
+    "death_function": [ "GUILT" ],
+    "flags": [
+      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "CATFOOD", "CLIMBS", "HARDTOSHOOT"
+    ]
+  },
+  {
+    "id": "mon_zmd_z_maid_2nd_A3",
+    "type": "MONSTER",
+    "name": "ゾンビメイド２号",
+    "copy-from" : "mon_zmd_z_maid_2nd_A2",
+    "description": "禁断の技術で作られたゾンビメイド２号。 \n(装備：セスタス、特性：回避・修復) \n\n元はお客様の対応用に作られました……口が上手くなりゾンビの接客も手慣れたものです。",
+
+    "hp": 220,
+    "speed": 150,
+    "color": "red",
+    
+    "melee_skill": 6,
+    "melee_dice": 5,
+    "melee_dice_sides": 6,
+    "melee_cut": 8,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "armor_stab": 7,
+    "armor_acid": 3,
+    "armor_fire": 3,
+    "dodge": 8,
+    "vision_night": 24,
+    "regenerates": 10,
+    "anger_triggers": [ "HURT" ],
+    "special_attacks": [
+        { "type": "bite", "cooldown": 4 },
+        { "type": "bite", "cooldown": 18, "accuracy": 4, "damage_max_instance": [ { "damage_type": "stab", "amount": 35, "armor_multiplier": 0.8 } ] },
+        { "id": "scratch", "cooldown": 5, "accuracy": 6, "damage_max_instance": [ { "damage_type": "cut", "amount": 18, "armor_multiplier": 0.9 } ] },
+        [ "GRAB", 10 ]
+    ],
+    "attack_effs": [
+      { "id": "dazed", "duration": 8, "chance": 20 }
+      
+    ],
+    
+    "revert_to_itype": "zmd_sleeping_z_maid_2nd_A3",
+    "death_drops": "zmd_mon_z_maid_2nd_A3_drops",
+    "death_function": [ "GUILT" ],
+    "flags": [
+      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "CATFOOD", "CLIMBS", "HARDTOSHOOT"
+    ]
+  }
+
+
+
+
+]

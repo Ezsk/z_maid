@@ -1,0 +1,28 @@
+[
+    {
+        "type": "effect_type",
+        "id": "efe_zmd_4th_charm",
+        "name": ["魅了"],
+        "desc": ["ぼんやりと上の空になっており頭が上手く回りません。"],
+        "//": "effect ってモブに効果出てるのか不明だけどまあいいか",
+        
+        "apply_message": "あなたはゾンビメイドの姿に意識を奪われた！",
+        "miss_messages": [["攻撃に意識を集中できない！", 5]],
+        "remove_message": "あなたは煩悩を打ち払った。",
+        
+        "rating": "bad",
+        "resist_traits": ["PSYCHOPATH"],
+        "int_dur_factor": 400,
+        "max_intensity": 3,
+        
+        "base_mods": {
+            "speed_mod": [-10],
+            "dex_mod": [-2, -1],
+            "int_mod": [-5, -1],
+            "stamina_chance": [1],
+            "stamina_min": [-1]
+        },
+        
+        "show_in_info": true
+    }
+]

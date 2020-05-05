@@ -1,0 +1,144 @@
+[
+  {
+      "id" : "zmd_sleeping_z_maid_1st",
+      "type": "TOOL",
+      "name": "ゾンビメイド１号(停止中)<color_light_blue>[z_maid]</color>",
+      "description" : "禁断の技術で作られたゾンビメイド１号。 \n今は静かに眠っています。 \n(装備：肉切り包丁)",
+        "//": "※material が bone や hflesh だとタレットの射撃で破損消滅してしまうため、 steel へ",
+      
+      "symbol": "M",
+      "color": "light_green",
+      "material": [ "steel" ],
+      
+      "weight": 1400,
+      "volume": 4,
+      "price": 500000,
+      
+      "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_zmd_z_maid_1st",
+          "difficulty": 0,
+          "skill2": "speech",
+          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+          "friendly_msg": "１号は静かに起き上がり、周囲を警戒し始めました。",
+          "place_randomly": true,
+          "moves": 120
+      },
+      "flags": [ "TRADER_AVOID", "SLEEP_AID" ]
+  },
+  {
+      "id" : "zmd_sleeping_z_maid_1st_A1",
+      "copy-from": "zmd_sleeping_z_maid_1st",
+      "type": "TOOL",
+      "name": "ゾンビメイド１号(停止中)<color_light_blue>[z_maid]</color>",
+      "description" : "禁断の技術で作られたゾンビメイド１号。 \n今は静かに眠っています。 \nType_A1 \n(装備：簡易マチェット)",
+      
+      "price": 800000,
+      
+      "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_zmd_z_maid_1st_A1",
+          "difficulty": 1,
+          "skill2": "speech",
+          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+          "friendly_msg": "１号は静かに起き上がり、周囲を警戒し始めました。",
+          "place_randomly": true,
+          "moves": 120
+      }
+  },
+  {
+      "id" : "zmd_sleeping_z_maid_1st_A2",
+      "copy-from": "zmd_sleeping_z_maid_1st",
+      "type": "TOOL",
+      "name": "ゾンビメイド１号(停止中)<color_light_blue>[z_maid]</color>",
+      "description" : "禁断の技術で作られたゾンビメイド１号。 \n今は静かに眠っています。 \nType_A2 \n(装備：日本刀)",
+      
+      "price": 1200000,
+      
+      "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_zmd_z_maid_1st_A2",
+          "difficulty": 2,
+          "skill2": "speech",
+          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+          "friendly_msg": "１号は静かに起き上がり、周囲を警戒し始めました。",
+          "place_randomly": true,
+          "moves": 120
+      }
+  },
+  {
+      "id" : "zmd_sleeping_z_maid_1st_A3",
+      "copy-from": "zmd_sleeping_z_maid_1st",
+      "type": "TOOL",
+      "name": "ゾンビメイド１号(停止中)<color_light_blue>[z_maid]</color>",
+      "description" : "禁断の技術で作られたゾンビメイド１号。 \n今は静かに眠っています。 \nType_A3 \n(装備：日本刀、特性：修復)",
+      
+      "price": 2000000,
+      
+      "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_zmd_z_maid_1st_A3",
+          "difficulty": 3,
+          "skill2": "speech",
+          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+          "friendly_msg": "１号は静かに起き上がり、周囲を警戒し始めました。",
+          "place_randomly": true,
+          "moves": 120
+      }
+  },
+
+
+
+  {
+      "type": "GENERIC",
+      "category": "other",
+      "id": "zmd_repair_z_maid_1st",
+      "name": "ゾンビメイド１号(破損)<color_light_blue>[z_maid]</color>",
+      "description": "ゾンビメイド１号は機能停止しており修復しなければ動きそうにありません。",
+      
+      "symbol": "M",
+      "color": "light_green",
+      "material": [ "steel" ],
+      
+      "weight": 1400,
+      "volume": 4,
+      "price": 500000,
+
+      "flags": [ "TRADER_AVOID", "SLEEP_AID" ]
+  },
+  {
+      "type": "GENERIC",
+      "category": "other",
+      "id": "zmd_repair_z_maid_1st_A1",
+      "copy-from": "zmd_repair_z_maid_1st",
+      "name": "ゾンビメイド１号(破損)<color_light_blue>[z_maid]</color>",
+      "description": "ゾンビメイド１号は機能停止しており修復しなければ動きそうにありません。 \nType_A1",
+      
+      "price": 800000
+  },
+  {
+      "type": "GENERIC",
+      "category": "other",
+      "id": "zmd_repair_z_maid_1st_A2",
+      "copy-from": "zmd_repair_z_maid_1st",
+      "name": "ゾンビメイド１号(破損)<color_light_blue>[z_maid]</color>",
+      "description": "ゾンビメイド１号は機能停止しており修復しなければ動きそうにありません。 \nType_A2",
+      
+      "price": 1200000
+  },
+  {
+      "type": "GENERIC",
+      "category": "other",
+      "id": "zmd_repair_z_maid_1st_A3",
+      "copy-from": "zmd_repair_z_maid_1st",
+      "name": "ゾンビメイド１号(破損)<color_light_blue>[z_maid]</color>",
+      "description": "ゾンビメイド１号は機能停止しており修復しなければ動きそうにありません。 \nType_A3",
+      
+      "price": 2000000
+  }
+
+
+
+
+
+]
