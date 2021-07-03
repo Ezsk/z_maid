@@ -3,11 +3,8 @@
     "id": "zmd_strange_book_fragment_1",
     "type": "BOOK",
     "name": "妖しげな本の断片(1/3)<color_light_blue>[z_maid]</color>",
-    "name_plural": "妖しげな本の断片(1/3)<color_light_blue>[z_maid]</color>",
     "description": "本の断片のようです。 \n全容は分かりませんが妖しい感じがします。",
-
     "looks_like": "note",
-
     "weight": 200,
     "volume": 1,
     "price": 0,
@@ -19,11 +16,8 @@
     "id": "zmd_strange_book_fragment_2",
     "type": "BOOK",
     "name": "妖しげな本の断片(2/3)<color_light_blue>[z_maid]</color>",
-    "name_plural": "妖しげな本の断片(2/3)<color_light_blue>[z_maid]</color>",
     "description": "本の断片のようです。 \n全容は分かりませんが妖しい感じがします。",
-
     "looks_like": "note",
-
     "weight": 200,
     "volume": 1,
     "price": 0,
@@ -35,11 +29,8 @@
     "id": "zmd_strange_book_fragment_3",
     "type": "BOOK",
     "name": "妖しげな本の断片(3/3)<color_light_blue>[z_maid]</color>",
-    "name_plural": "妖しげな本の断片(3/3)<color_light_blue>[z_maid]</color>",
     "description": "本の断片のようです。 \n全容は分かりませんが妖しい感じがします。",
-
     "looks_like": "note",
-
     "weight": 400,
     "volume": 2,
     "price": 0,
@@ -51,11 +42,8 @@
     "id": "zmd_craft_guide_maiden",
     "type": "BOOK",
     "name": "本(学習/メイドさんを作ろう！)<color_light_blue>[z_maid]</color>",
-    "name_plural": "本(学習/メイドさんを作ろう！)<color_light_blue>[z_maid]</color>",
     "description": "人間の死体を使ってメイドさんを作ろう！ \n……というイカレた本です。 \nこの本を読んでいるところを他人に見られたら正気を疑われることになるでしょうね！",
-
     "looks_like": "abdul_necro",
-
     "weight": 800,
     "volume": 4,
     "price": 70000,
@@ -74,9 +62,7 @@
     "type": "BOOK",
     "name": "本(一般/ひみつのメイド本)<color_light_blue>[z_maid]</color>",
     "description": "メイドさんがあーんなことや、こーんなことになってしまっている秘密の薄い本です。 \nお母さんに見つからないように読みましょうね！",
-
     "looks_like": "textbook_speech",
-
     "weight": 180,
     "volume": 4,
     "price": 10000,
@@ -91,9 +77,7 @@
     "type": "BOOK",
     "name": "本(学習/そんな大っきいの入らないですよぅ！)<color_light_blue>[z_maid]</color>",
     "description": "「ご、ご主人様！？ダメです！そんな大っきいの(大型蓄電池)入らないですよぅ……そ、その電源拡張キットを付けたモノは車のバッテリー以下のサイズしか入らないんですよぅ。 \n \n(カチャカチャ)あ、ああっ！？ご主人様いけません！……そのUPS変換キットを付けたモノはバッテリーとか入らなくて、UPSっていう充電器みたいのがいるんですよぅ。 \n \n(Ｕ・Ｐ・Ｓ！ Ｕ・Ｐ・Ｓ！)……あぅ、あぅ、UPSっていうのは特殊な充電バッテリーみたいなもので電池を入れるか、車載のUPS互換充電ステーションをオンにしたとこに入れて充電するんですよぅ。 \n \nふぇ？ええ……確かにそっち(改良型UPS)にそれ(原子力電池)は入りますけどぉ………ま、待って、落ち着いて下さいよぅ……あっ！あああぁーー！！(ガシャンコ)」 \n………という健全な電子工学の学習本です。",
-
     "looks_like": "textbook_speech",
-
     "weight": 45,
     "volume": 1,
     "price": 2600,
@@ -111,9 +95,7 @@
     "type": "TOOL",
     "name": "試作お掃除ロボット(停止中)<color_light_blue>[z_maid]</color>",
     "description": "市販されていない試作品の掃除ロボットです。 \nなんでも片付けてしまうので、大切な物まで処分されないよう気を付けましょう！",
-
     "looks_like": "mon_hazmatbot",
-
     "weight": 12744,
     "volume": 32,
     "price": 700000,
@@ -123,7 +105,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": "R",
     "color": "light_green",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_bot_prototype_cleaner",
@@ -132,9 +113,7 @@
       "difficulty": 3,
       "moves": 60,
       "place_randomly": true,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   }
-  
 ]

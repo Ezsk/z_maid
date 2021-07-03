@@ -7,15 +7,14 @@
     "default_faction": "player",
     "species": [ "HUMAN" ],
     "diff": 6,
-    "size": "MEDIUM",
+    "volume": "45 L",
+    "weight": "45 kg",
     "material": [ "hflesh" ],
     "symbol": "M",
     "color": "light_green",
-
     "//": "※斬撃タイプ　犬　speciesにZOMBIE入ってるとNPCに攻撃されたので除外",
     "hp": 180,
     "speed": 90,
-
     "aggression": 100,
     "morale": 100,
     "melee_skill": 4,
@@ -28,34 +27,24 @@
     "dodge": 2,
     "vision_day": 20,
     "vision_night": 6,
-    "special_attacks": [
-        [ "LUNGE", 10 ]
-    ],
-    "attack_effs": [
-      { "id": "stunned", "duration": 8, "chance": 5 }
-      
-    ],
-
+    "special_attacks": [ [ "LUNGE", 10 ] ],
+    "attack_effs": [ { "id": "stunned", "duration": 8, "chance": 5 } ],
     "harvest": "exempt",
     "revert_to_itype": "zmd_sleeping_z_maid_1st",
     "death_drops": "zmd_mon_z_maid_1st_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_1", "DOGFOOD"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "DOGFOOD" ]
   },
   {
     "id": "mon_zmd_z_maid_1st_A1",
     "type": "MONSTER",
     "name": "ゾンビメイド１号",
-    "copy-from" : "mon_zmd_z_maid_1st",
+    "copy-from": "mon_zmd_z_maid_1st",
     "description": "禁断の技術で作られたゾンビメイド１号。 \n(装備：簡易マチェット) \n\n元は調理担当として作られました……料理は上手くできませんでしたが今はゾンビを調理しています。",
-    
     "//": "※斬撃タイプ、基本性能強化　",
     "hp": 200,
     "speed": 100,
     "color": "brown",
-    
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 4,
@@ -65,34 +54,23 @@
     "armor_stab": 7,
     "dodge": 3,
     "vision_night": 8,
-    "special_attacks": [
-        [ "LUNGE", 8 ],
-        [ "impale", 12 ]
-    ],
-    "attack_effs": [
-      { "id": "stunned", "duration": 8, "chance": 10 }
-      
-    ],
-    
+    "special_attacks": [ [ "LUNGE", 8 ], [ "impale", 12 ] ],
+    "attack_effs": [ { "id": "stunned", "duration": 8, "chance": 10 } ],
     "revert_to_itype": "zmd_sleeping_z_maid_1st_A1",
     "death_drops": "zmd_mon_z_maid_1st_A1_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "DOGFOOD"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "DOGFOOD" ]
   },
   {
     "id": "mon_zmd_z_maid_1st_A2",
     "type": "MONSTER",
     "name": "ゾンビメイド１号",
-    "copy-from" : "mon_zmd_z_maid_1st_A1",
+    "copy-from": "mon_zmd_z_maid_1st_A1",
     "description": "禁断の技術で作られたゾンビメイド１号。 \n(装備：日本刀) \n\n元は調理担当として作られました……料理は上手くできませんでしたが今はゾンビを調理しています。",
-    
     "//": "※斬撃タイプ、基本性能強化　damage_max_instance：クリティカルヒットによる特殊効果みたいな？　amount：与えるダメージ？　armor_multiplier：敵装甲の倍率？",
     "hp": 240,
     "speed": 105,
     "color": "brown_green",
-
     "melee_skill": 6,
     "melee_dice": 3,
     "melee_dice_sides": 5,
@@ -105,34 +83,31 @@
     "dodge": 4,
     "vision_night": 10,
     "special_attacks": [
-        [ "LUNGE", 6 ],
-        [ "impale", 10 ],
-        { "id": "impale", "cooldown": 40, "accuracy": 8, "damage_max_instance": [ { "damage_type": "cut", "amount": 46, "armor_multiplier": 0.7 } ] }
+      [ "LUNGE", 6 ],
+      [ "impale", 10 ],
+      {
+        "id": "impale",
+        "cooldown": 40,
+        "accuracy": 8,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 46, "armor_multiplier": 0.7 } ]
+      }
     ],
-    "attack_effs": [
-      { "id": "stunned", "duration": 8, "chance": 15 }
-      
-    ],
-    
+    "attack_effs": [ { "id": "stunned", "duration": 8, "chance": 15 } ],
     "revert_to_itype": "zmd_sleeping_z_maid_1st_A2",
     "death_drops": "zmd_mon_z_maid_1st_A2_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "DOGFOOD"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "DOGFOOD" ]
   },
   {
     "id": "mon_zmd_z_maid_1st_A3",
     "type": "MONSTER",
     "name": "ゾンビメイド１号",
-    "copy-from" : "mon_zmd_z_maid_1st_A2",
+    "copy-from": "mon_zmd_z_maid_1st_A2",
     "description": "禁断の技術で作られたゾンビメイド１号。 \n(装備：日本刀、特性：修復) \n\n元は調理担当として作られました……得意料理はゾンビのタタキです。",
-    
     "//": "※斬撃タイプ、基本性能強化、自動回復（REGENERATES_10）付加　anger_triggers：犬の群れみたいな集団反応用？効果無いかもだけどまあいいかフレーバー的な。",
     "hp": 280,
     "speed": 110,
     "color": "red",
-    
     "melee_skill": 7,
     "melee_dice": 4,
     "melee_dice_sides": 6,
@@ -147,23 +122,19 @@
     "regenerates": 10,
     "anger_triggers": [ "FRIEND_DIED" ],
     "special_attacks": [
-        [ "LUNGE", 4 ],
-        [ "impale", 8 ],
-        { "id": "impale", "cooldown": 30, "accuracy": 10, "damage_max_instance": [ { "damage_type": "cut", "amount": 65, "armor_multiplier": 0.5 } ] }
+      [ "LUNGE", 4 ],
+      [ "impale", 8 ],
+      {
+        "id": "impale",
+        "cooldown": 30,
+        "accuracy": 10,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 65, "armor_multiplier": 0.5 } ]
+      }
     ],
-    "attack_effs": [
-      { "id": "stunned", "duration": 8, "chance": 20 }
-      
-    ],
-    
+    "attack_effs": [ { "id": "stunned", "duration": 8, "chance": 20 } ],
     "revert_to_itype": "zmd_sleeping_z_maid_1st_A3",
     "death_drops": "zmd_mon_z_maid_1st_A3_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "DOGFOOD"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "DOGFOOD" ]
   }
-
-
-
 ]

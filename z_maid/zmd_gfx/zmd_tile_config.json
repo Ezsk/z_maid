@@ -1,175 +1,89 @@
-{
-  "type": "mod_tileset",
-  "compatibility": [ "MShock32Modded", "MshockXottoplus", "MshockXottoplus11J", "MshockXottoplus12", "MSX++DEAD_PEOPLE", "MSX++ZaragaTiles", "Custom Tileset", "UNDEAD_PEOPLE" ],
-  "tile_info": [
-    {
-      "height": 32,
-      "width": 32
-    }
-  ],
-  "tiles-new": [
-    {
-      "file": "zmd_gfx/tiles_zmd_32x32.png",
-      "tiles": [
-
-        {
-          "id": "mon_zmd_z_maid_1st",
-          "fg": 32,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_1st_A1",
-          "fg": 33,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_1st_A2",
-          "fg": 34,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_1st_A3",
-          "fg": 36,
-          "bg": 0
-        },
-        {
-          "id": [ "zmd_sleeping_z_maid_1st", "zmd_sleeping_z_maid_1st_A1", "zmd_sleeping_z_maid_1st_A2", "zmd_sleeping_z_maid_1st_A3"],
-          "fg": 35
-        },
-        {
-          "id": [ "zmd_repair_z_maid_1st", "zmd_repair_z_maid_1st_A1", "zmd_repair_z_maid_1st_A2", "zmd_repair_z_maid_1st_A3"],
-          "fg": 35
-        },
-        {
-          "id": "mon_zmd_z_maid_2nd",
-          "fg": 48,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_2nd_A1",
-          "fg": 49,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_2nd_A2",
-          "fg": 50,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_2nd_A3",
-          "fg": 52,
-          "bg": 0
-        },
-        {
-          "id": [ "zmd_sleeping_z_maid_2nd", "zmd_sleeping_z_maid_2nd_A1", "zmd_sleeping_z_maid_2nd_A2", "zmd_sleeping_z_maid_2nd_A3"],
-          "fg": 51
-        },
-        {
-          "id": [ "zmd_repair_z_maid_2nd", "zmd_repair_z_maid_2nd_A1", "zmd_repair_z_maid_2nd_A2", "zmd_repair_z_maid_2nd_A3"],
-          "fg": 51
-        },
-        {
-          "id": "mon_zmd_z_maid_3rd",
-          "fg": 64,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_3rd_A1",
-          "fg": 65,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_3rd_A2",
-          "fg": 66,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_3rd_A3",
-          "fg": 68,
-          "bg": 0
-        },
-        {
-          "id": [ "zmd_sleeping_z_maid_3rd", "zmd_sleeping_z_maid_3rd_A1", "zmd_sleeping_z_maid_3rd_A2", "zmd_sleeping_z_maid_3rd_A3"],
-          "fg": 67
-        },
-        {
-          "id": [ "zmd_repair_z_maid_3rd", "zmd_repair_z_maid_3rd_A1", "zmd_repair_z_maid_3rd_A2", "zmd_repair_z_maid_3rd_A3"],
-          "fg": 67
-        },
-        {
-          "id": "mon_zmd_z_maid_4th",
-          "fg": 80,
-          "bg": 0
-        },
-        {
-          "id": "mon_zmd_z_maid_4th_Neo",
-          "fg": 80,
-          "bg": 0
-        },
-        {
-          "id": [ "zmd_sleeping_z_maid_4th", "zmd_sleeping_z_maid_4th_Neo"],
-          "fg": 83
-        },
-        {
-          "id": [ "zmd_repair_z_maid_4th", "zmd_repair_z_maid_4th_Neo"],
-          "fg": 83
-        },
-        {
-          "id": "mon_zmd_maid_thing",
-          "fg": 112,
-          "bg": 0
-        },
-        {
-          "id": "zmd_coffin_ex",
-          "fg": 163,
-          "bg": 164
-        },
-        {
-          "id": "vp_zmd_coffin_ex_vh",
-          "fg": 163,
-          "rotates": true,
-          "additional_tiles": [
-            { 
-              "id": "broken",
-              "fg": 13
-            }
-          ]
-        },
-        {
-          "id": "overlay_worn_zmd_coffin_ex",
-          "fg": 179
-        },
-        {
-          "id": "overlay_worn_zmd_dress_black",
-          "fg": 256
-        },
-        {
-          "id": "overlay_worn_zmd_bra_violet",
-          "fg": 314,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_zmd_panties_violet",
-          "fg": 315,
-          "rotates": false
-        }
-
-
-
-      ]
-    },
-    {
-      "file": "./zmd_gfx/zmaid_effect_32x32.png",
-	  "sprite_offset_x":-10,
-	  "sprite_offset_y":-8,
-      "tiles": [
-        {
-          "id": "overlay_effect_efe_zmd_4th_charm",
-          "fg": 320
-        }
-
-	  ]
-	}
-
-  ]
-}
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics"
+    ],
+    "tiles-new": [
+      {
+        "file": "zmd_gfx/tiles_zmd_32x32.png",
+        "tiles": [
+          { "id": "mon_zmd_z_maid_1st", "fg": 32, "bg": 0 },
+          { "id": "mon_zmd_z_maid_1st_A1", "fg": 33, "bg": 0 },
+          { "id": "mon_zmd_z_maid_1st_A2", "fg": 34, "bg": 0 },
+          { "id": "mon_zmd_z_maid_1st_A3", "fg": 36, "bg": 0 },
+          {
+            "id": [ "zmd_sleeping_z_maid_1st", "zmd_sleeping_z_maid_1st_A1", "zmd_sleeping_z_maid_1st_A2", "zmd_sleeping_z_maid_1st_A3" ],
+            "fg": 35
+          },
+          {
+            "id": [ "zmd_repair_z_maid_1st", "zmd_repair_z_maid_1st_A1", "zmd_repair_z_maid_1st_A2", "zmd_repair_z_maid_1st_A3" ],
+            "fg": 35
+          },
+          { "id": "mon_zmd_z_maid_2nd", "fg": 48, "bg": 0 },
+          { "id": "mon_zmd_z_maid_2nd_A1", "fg": 49, "bg": 0 },
+          { "id": "mon_zmd_z_maid_2nd_A2", "fg": 50, "bg": 0 },
+          { "id": "mon_zmd_z_maid_2nd_A3", "fg": 52, "bg": 0 },
+          {
+            "id": [ "zmd_sleeping_z_maid_2nd", "zmd_sleeping_z_maid_2nd_A1", "zmd_sleeping_z_maid_2nd_A2", "zmd_sleeping_z_maid_2nd_A3" ],
+            "fg": 51
+          },
+          {
+            "id": [ "zmd_repair_z_maid_2nd", "zmd_repair_z_maid_2nd_A1", "zmd_repair_z_maid_2nd_A2", "zmd_repair_z_maid_2nd_A3" ],
+            "fg": 51
+          },
+          { "id": "mon_zmd_z_maid_3rd", "fg": 64, "bg": 0 },
+          { "id": "mon_zmd_z_maid_3rd_A1", "fg": 65, "bg": 0 },
+          { "id": "mon_zmd_z_maid_3rd_A2", "fg": 66, "bg": 0 },
+          { "id": "mon_zmd_z_maid_3rd_A3", "fg": 68, "bg": 0 },
+          {
+            "id": [ "zmd_sleeping_z_maid_3rd", "zmd_sleeping_z_maid_3rd_A1", "zmd_sleeping_z_maid_3rd_A2", "zmd_sleeping_z_maid_3rd_A3" ],
+            "fg": 67
+          },
+          {
+            "id": [ "zmd_repair_z_maid_3rd", "zmd_repair_z_maid_3rd_A1", "zmd_repair_z_maid_3rd_A2", "zmd_repair_z_maid_3rd_A3" ],
+            "fg": 67
+          },
+          { "id": "mon_zmd_z_maid_4th", "fg": 80, "bg": 0 },
+          { "id": "mon_zmd_z_maid_4th_Neo", "fg": 80, "bg": 0 },
+          { "id": [ "zmd_sleeping_z_maid_4th", "zmd_sleeping_z_maid_4th_Neo" ], "fg": 83 },
+          { "id": [ "zmd_repair_z_maid_4th", "zmd_repair_z_maid_4th_Neo" ], "fg": 83 },
+          { "id": "mon_zmd_maid_thing", "fg": 112, "bg": 0 },
+          { "id": "zmd_coffin_ex", "fg": 163, "bg": 164 },
+          {
+            "id": "vp_zmd_coffin_ex_vh",
+            "fg": 163,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 13 } ]
+          },
+          { "id": "overlay_worn_zmd_coffin_ex", "fg": 179 },
+          { "id": "overlay_worn_zmd_dress_black", "fg": 256 },
+          { "id": "overlay_worn_zmd_bra_violet", "fg": 314, "rotates": false },
+          { "id": "overlay_worn_zmd_panties_violet", "fg": 315, "rotates": false }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      },
+      {
+        "file": "./zmd_gfx/zmaid_effect_32x32.png",
+        "tiles": [ { "id": "overlay_effect_efe_zmd_4th_charm", "fg": 320 } ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": -10,
+        "sprite_offset_y": -8
+      }
+    ]
+  }
+]

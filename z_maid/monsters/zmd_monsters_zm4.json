@@ -1,19 +1,15 @@
 [
- 
   {
     "id": "mon_zmd_z_maid_4th",
     "type": "MONSTER",
     "name": "ゾンビメイド４号",
     "description": "禁断の技術で作られたゾンビメイド４号。 \n(装備：指先剃刀、特性：修復) \n………他のゾンビメイドと異なりポータルを介したストレージに入ってくれない困ったちゃん。",
-    
     "//": "※牛　叫びでビンが割れたり、吹き飛ばしで壁が壊れたり、踊りだしたり",
-    "copy-from" : "mon_zmd_z_maid_1st",
+    "copy-from": "mon_zmd_z_maid_1st",
     "diff": 28,
     "hp": 60,
     "speed": 105,
-
     "color": "brown",
-    
     "aggression": 100,
     "morale": 100,
     "melee_skill": 5,
@@ -25,42 +21,27 @@
     "armor_stab": 2,
     "armor_acid": 5,
     "dodge": 1,
-
     "vision_night": 8,
     "regenerates": 10,
     "fear_triggers": [ "FIRE" ],
-    "special_attacks": [
-        [ "scratch", 6 ],
-        [ "SMASH", 15 ],
-        [ "DANCE", 10 ],
-        [ "SHRIEK_ALERT", 18 ], [ "SHRIEK_STUN", 1 ]
-    ],
-    "attack_effs": [
-      { "id": "efe_zmd_4th_charm", "duration": 6, "chance": 10 }
-      
-    ],
+    "special_attacks": [ [ "scratch", 6 ], [ "SMASH", 15 ], [ "DANCE", 10 ], [ "SHRIEK_ALERT", 18 ], [ "SHRIEK_STUN", 1 ] ],
+    "attack_effs": [ { "id": "efe_zmd_4th_charm", "duration": 6, "chance": 10 } ],
     "starting_ammo": { "milk": 2 },
     "revert_to_itype": "",
     "death_drops": "zmd_mon_z_maid_4th_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "CATTLEFODDER", "MILKABLE"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CATTLEFODDER", "MILKABLE" ]
   },
-
-
   {
     "id": "mon_zmd_z_maid_4th_Neo",
     "type": "MONSTER",
     "name": "ゾンビメイド４号",
-    "copy-from" : "mon_zmd_z_maid_4th",
+    "copy-from": "mon_zmd_z_maid_4th",
     "description": "禁断の技術で作られたゾンビメイド４号。 \n(装備：指先剃刀、特性：修復) \n改造手術によって賢く生まれ変わりました！",
-    
     "//": "※賢くなったので搾乳とかさせてもらえなくなりました、お父さんと一緒にお風呂に入らなくなった思春期少女のようなもんです。でもやっぱり踊る。",
     "hp": 200,
     "speed": 130,
     "color": "red",
-    
     "aggression": 100,
     "morale": 100,
     "melee_skill": 6,
@@ -75,27 +56,30 @@
     "regenerates": 10,
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "special_attacks": [
-        { "id": "scratch", "cooldown": 28, "accuracy": 6, "damage_max_instance": [ { "damage_type": "cut", "amount": 66, "armor_multiplier": 0.8 } ] },
-        { "type": "leap", "cooldown": 10, "max_range": 8, "min_consider_range": 3, "max_consider_range": 7, "allow_no_target": false },
-        [ "scratch", 4 ],
-        [ "DANCE", 50 ],
-        [ "SHRIEK_ALERT", 20 ], [ "SHRIEK_STUN", 1 ]
+      {
+        "id": "scratch",
+        "cooldown": 28,
+        "accuracy": 6,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 66, "armor_multiplier": 0.8 } ]
+      },
+      {
+        "type": "leap",
+        "cooldown": 10,
+        "max_range": 8,
+        "min_consider_range": 3,
+        "max_consider_range": 7,
+        "allow_no_target": false
+      },
+      [ "scratch", 4 ],
+      [ "DANCE", 50 ],
+      [ "SHRIEK_ALERT", 20 ],
+      [ "SHRIEK_STUN", 1 ]
     ],
-    "attack_effs": [
-      { "id": "efe_zmd_4th_charm", "duration": 10, "chance": 18 }
-      
-    ],
-    
-    "starting_ammo": { },
-    
+    "attack_effs": [ { "id": "efe_zmd_4th_charm", "duration": 10, "chance": 18 } ],
+    "starting_ammo": {  },
     "revert_to_itype": "zmd_sleeping_z_maid_4th_Neo",
     "death_drops": "zmd_mon_z_maid_4th_Neo_drops",
     "death_function": [ "GUILT" ],
-    "flags": [
-      "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BLEED", "PATH_AVOID_DANGER_2", "CATTLEFODDER"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CATTLEFODDER" ]
   }
-
-
-
 ]

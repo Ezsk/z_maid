@@ -1,30 +1,34 @@
 [
-
   {
     "id": "zmd_coffin_ex",
     "type": "ARMOR",
     "name": "改造棺桶<color_light_blue>[z_maid]</color>",
     "description": "革のベルトがついた木製の棺桶です。 \n重くてかさ張ります、動き辛いですがベルトを利用すれば着用することも可能でしょう。",
-
     "weight": 10000,
     "volume": 200,
     "price": 40000,
     "to_hit": -4,
     "bashing": 10,
-    "material" : ["wood", "leather"],
+    "material": [ "wood", "leather" ],
     "symbol": "[",
     "color": "brown",
-    
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 50,
-    "encumbrance": 40,
-    "storage": 60,
+    "encumbrance": 20,
+    "pocket_data": [
+      {
+        "rigid": false,
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "50 L",
+        "max_contains_weight": "50 kg",
+        "moves": 270
+      }
+    ],
     "material_thickness": 3,
     "techniques": [ "WBLOCK_1" ],
-    
-    "properties": [ [ "monster_size_capacity", "MEDIUM" ] ],
+    "properties": [ [ "creature_size_capacity", "LARGE" ] ],
     "use_action": "CAPTURE_MONSTER_ACT",
-    "flags": [ "TRADER_AVOID", "USE_PART_ITEM" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "//": "(※非アイテム　車載時のデータ)車載・改造棺桶　タイルでは vp_ が付き、vp_zmd_coffin_ex_vh となる",
@@ -35,63 +39,49 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "dark_gray",
-    
     "damage_modifier": 60,
     "durability": 80,
     "description": "木製の棺桶です。動物などを入れておくことも可能でしょう……中が快適とは言えませんが。",
     "size": 180,
-
     "item": "zmd_coffin_ex",
-    "difficulty": 1,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "600 s" },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "300 s" }
+    },
     "location": "center",
-    "flags": [ "AISLE", "BOARDABLE", "CARGO", "COVERED", "CAPTURE_MONSTER_VEH", "NAILABLE", "LOCKABLE_CARGO" ],
-
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "COVERED", "CAPTURE_MONSTER_VEH", "LOCKABLE_CARGO" ],
     "breaks_into": [
       { "item": "splinter", "count": [ 3, 5 ] },
       { "item": "leather", "count": [ 1, 3 ] },
       { "item": "nail", "charges": [ 10, 15 ] }
     ]
   },
-
-
-
-
-
   {
     "//": "閉じた棺の共通事項",
     "abstract": "zmd_base_closed_coffin",
     "type": "TOOL",
     "name": "閉じた棺",
     "description": "何が入っているか分からない閉じられた棺です。そっとしておきましょう……。",
-
     "looks_like": "f_coffin_c",
-
     "weight": 70000,
     "volume": 220,
     "price": 0,
     "material": [ "wood" ],
-    
     "symbol": "C",
     "color": "brown"
   },
-
-
-
   {
     "id": "zmd_closed_coffin_zmaid_1st",
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_1st",
-      
-      "skill2": "speech",
-      "difficulty": 12,
+      "skills": [ "speech" ],
+      "difficulty": 6,
       "friendly_msg": "棺の中にいた者が起き上がり、周囲を警戒し始めました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -101,16 +91,13 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_2nd",
-      
-      "skill2": "speech",
-      "difficulty": 12,
+      "skills": [ "speech" ],
+      "difficulty": 6,
       "friendly_msg": "棺の中にいた者が起き上がり、元気そうにジャンプしました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -120,16 +107,13 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_3rd",
-      
-      "skill2": "speech",
-      "difficulty": 12,
+      "skills": [ "speech" ],
+      "difficulty": 6,
       "friendly_msg": "棺の中にいた者が起き上がり、ペコリと礼をしてきました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -139,40 +123,30 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_4th",
-      
-      "skill2": "speech",
-      "difficulty": 1,
+      "skills": [ "speech" ],
+      "difficulty": 2,
       "friendly_msg": "棺の中にいた者が起き上がり、こちらを見てニコリと微笑みました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
   },
-
-
-
   {
     "id": "zmd_closed_coffin_amigara",
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "weight": 80000,
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_amigara_horror",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 60,
       "friendly_msg": "棺の棺の中にはなんとも形容し難い存在が入っていました……",
       "hostile_msg": "棺から何者かが飛び出し………！……！？……！？",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -182,18 +156,14 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "weight": 14000,
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_hallu_mom",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 0,
       "friendly_msg": "………！？",
       "hostile_msg": "………！？",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -203,18 +173,14 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "weight": 14000,
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_bat",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 10,
       "friendly_msg": "棺の中にはなぜかコウモリが入っていました……吸血鬼ではないようです。",
       "hostile_msg": "棺から何かが飛び出してきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -224,16 +190,13 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_survivor",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 3,
       "friendly_msg": "棺の中にはゾンビがいました……が不思議なことに襲い掛かってこないようです。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -243,38 +206,29 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_swimmer",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 3,
       "friendly_msg": "棺の中にはゾンビがいました……が不思議なことに襲い掛かってこないようです。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
   },
-
-
-
   {
     "id": "zmd_closed_coffin_b_shocker",
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_brute_shocker",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 10,
       "friendly_msg": "棺の中にはゾンビがいました……が不思議なことに襲い掛かってこないようです。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -284,16 +238,13 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_blob_large",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 6,
       "friendly_msg": "棺の中にいたブロブがこちらの仲間になりたそうにプルプルしている……",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -303,18 +254,14 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "description": "何が入っているか分からない閉じられた棺です。なんだかキノコの香りがするような……。",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_fungaloid_tower",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 10,
       "friendly_msg": "棺の中の何かは外気に触れた途端、一瞬で爆発的に成長しました！！",
       "hostile_msg": "棺の中の何かは外気に触れた途端、一瞬で爆発的に成長しました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -324,16 +271,13 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_dog_thing",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 0,
       "friendly_msg": "棺の中から１匹のワンちゃんが出てきました……なぜこんなところに？",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
@@ -343,42 +287,31 @@
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_necro",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 12,
       "friendly_msg": "棺の中にはゾンビがいました……が不思議なことに襲い掛かってこないようです。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
-  }
-
-
-
-  ,{
+  },
+  {
     "id": "zmd_closed_coffin_maid_t",
     "type": "TOOL",
     "name": "閉じた棺<color_light_blue>[z_maid]</color>",
     "copy-from": "zmd_base_closed_coffin",
-    
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_maid_thing",
-      
-      "skill2": "speech",
+      "skills": [ "speech" ],
       "difficulty": 0,
       "friendly_msg": "なんと、棺の中にはメイドさんが入っていました！？",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
-      
       "moves": 60,
       "place_randomly": true
     }
   }
-
-
 ]

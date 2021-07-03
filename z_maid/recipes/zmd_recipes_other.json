@@ -74,7 +74,7 @@
       [ [ "tailors_kit", 1 ] ],
       [ [ "thread", 200 ] ]
     ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_EASY", "FULL_MAGAZINE" ]
   },
 
 
