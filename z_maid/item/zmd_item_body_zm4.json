@@ -1,78 +1,68 @@
 [
   {
-      "id" : "zmd_sleeping_z_maid_4th",
-      "copy-from": "zmd_sleeping_z_maid_1st_A2",
-      "type": "TOOL",
-      "name": "ゾンビメイド４号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "※残念ながら４号は失敗作です。 \n　破棄しましょう！！ \n禁断の技術で作られたゾンビメイド４号。 \n今は静かに眠っています。",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_4th",
-          "difficulty": 10,
-          "skills": [ "speech" ],
-          "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
-          "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
-          "place_randomly": true,
-          "moves": 120
-      }
+    "id": "zmd_sleeping_z_maid_4th",
+    "copy-from": "zmd_sleeping_z_maid_1st_A2",
+    "type": "TOOL",
+    "name": "ゾンビメイド４号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "※残念ながら４号は失敗作です。 \n　破棄しましょう！！ \n禁断の技術で作られたゾンビメイド４号。 \n今は静かに眠っています。",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_4th",
+      "difficulty": 10,
+      "skills": [ "speech" ],
+      "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
+      "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "id" : "zmd_sleeping_z_maid_4th_Neo",
-      "copy-from": "zmd_sleeping_z_maid_1st_A3",
-      "type": "TOOL",
-      "name": "ゾンビメイド４号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "禁断の技術で作られたゾンビメイド４号。 \n今は静かに眠っています。 \n※丹念な改造の結果、４号が賢くなりました！……ですが賢くなった分、以前と同じような扱いはできませんよ？",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_4th_Neo",
-          "difficulty": 1,
-          "skills": [ "speech" ],
-          "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
-          "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
-          "place_randomly": true,
-          "moves": 120
-      }
-  },
-
-
-
-  {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_4th",
-      "copy-from": "zmd_repair_z_maid_1st_A2",
-      "name": "ゾンビメイド４号(修復中)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。",
-      
-      "use_action": {
-          "type": "delayed_transform",
-          "transform_age": 2000,
-          "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
-          "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
-          "moves": 60,
-          "target": "zmd_sleeping_z_maid_4th"
-      }
+    "id": "zmd_sleeping_z_maid_4th_Neo",
+    "copy-from": "zmd_sleeping_z_maid_1st_A3",
+    "type": "TOOL",
+    "name": "ゾンビメイド４号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "禁断の技術で作られたゾンビメイド４号。 \n今は静かに眠っています。 \n※丹念な改造の結果、４号が賢くなりました！……ですが賢くなった分、以前と同じような扱いはできませんよ？",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_4th_Neo",
+      "difficulty": 1,
+      "skills": [ "speech" ],
+      "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
+      "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_4th_Neo",
-      "copy-from": "zmd_repair_z_maid_1st_A3",
-      "name": "ゾンビメイド４号(修復中)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。 \n※改造済み",
-      
-      "use_action": {
-          "type": "delayed_transform",
-          "transform_age": 2000,
-          "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
-          "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
-          "moves": 60,
-          "target": "zmd_sleeping_z_maid_4th_Neo"
-      }
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_4th",
+    "copy-from": "zmd_repair_z_maid_1st_A2",
+    "name": "ゾンビメイド４号(修復中)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 2000,
+      "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
+      "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
+      "moves": 60,
+      "target": "zmd_sleeping_z_maid_4th"
+    }
+  },
+  {
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_4th_Neo",
+    "copy-from": "zmd_repair_z_maid_1st_A3",
+    "name": "ゾンビメイド４号(修復中)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。 \n※改造済み",
+    "use_action": {
+      "type": "delayed_transform",
+      "transform_age": 2000,
+      "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
+      "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
+      "moves": 60,
+      "target": "zmd_sleeping_z_maid_4th_Neo"
+    }
   }
-
-
-
 ]

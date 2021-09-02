@@ -1,111 +1,84 @@
 [
   {
     "//": "■ゾンビメイド作成レシピ本のアイテムグループ",
-    "type" : "item_group",
-    "id" : "zmd_zmaid_book_drops",
-    "items":[
-      ["zmd_strange_book_fragment_1", 20],
-      ["zmd_strange_book_fragment_2", 20],
-      ["zmd_strange_book_fragment_3", 20],
-      ["zmd_electronics_guide_m", 1]
+    "type": "item_group",
+    "id": "zmd_zmaid_book_drops",
+    "items": [
+      [ "zmd_strange_book_fragment_1", 20 ],
+      [ "zmd_strange_book_fragment_2", 20 ],
+      [ "zmd_strange_book_fragment_3", 20 ],
+      [ "zmd_electronics_guide_m", 1 ]
     ]
-  }
-  ,{
+  },
+  {
     "//": "■ゾンビメイド作成レシピ本＋αなどのアイテムグループ　後ろの数字は全体から見たドロップ比率？",
-    "type" : "item_group",
-    "id" : "zmd_zmaid_tec_drops",
-    "items":[
-      ["zmd_strange_book_fragment_1", 20],
-      ["zmd_strange_book_fragment_2", 20],
-      ["zmd_strange_book_fragment_3", 20],
-      ["zmd_craft_guide_maiden", 1],
-      ["zmd_HIMITU_of_maid", 1],
-      ["zmd_go_maid_bag", 1],
-      ["zmd_bot_prototype_cleaner", 8]
+    "type": "item_group",
+    "id": "zmd_zmaid_tec_drops",
+    "items": [
+      [ "zmd_strange_book_fragment_1", 20 ],
+      [ "zmd_strange_book_fragment_2", 20 ],
+      [ "zmd_strange_book_fragment_3", 20 ],
+      [ "zmd_craft_guide_maiden", 1 ],
+      [ "zmd_HIMITU_of_maid", 1 ],
+      [ "zmd_go_maid_bag", 1 ],
+      [ "zmd_bot_prototype_cleaner", 8 ]
     ]
-  }
-  ,{
+  },
+  {
     "//": "■閉じた棺のアイテムグループ",
-    "type" : "item_group",
-    "id" : "zmd_close_coffin_drops",
-    "items":[
-      ["zmd_closed_coffin_zmaid_1st", 1],
-      ["zmd_closed_coffin_zmaid_2nd", 1],
-      ["zmd_closed_coffin_zmaid_3rd", 1],
-      ["zmd_closed_coffin_zmaid_4th", 1],
-      
-      ["zmd_closed_coffin_amigara", 1],
-      ["zmd_closed_coffin_mom", 1],
-      ["zmd_closed_coffin_bat", 1],
-
-      ["zmd_closed_coffin_survivor", 1],
-      ["zmd_closed_coffin_swimmer", 1],
-      ["zmd_closed_coffin_b_shocker", 1],
-
-      ["zmd_closed_coffin_blob", 1],
-      ["zmd_closed_coffin_f_tower", 1],
-      ["zmd_closed_coffin_dog_t", 1],
-      ["zmd_closed_coffin_necro", 1],      
-      ["zmd_closed_coffin_maid_t", 1]
+    "type": "item_group",
+    "id": "zmd_close_coffin_drops",
+    "items": [
+      [ "zmd_closed_coffin_zmaid_1st", 1 ],
+      [ "zmd_closed_coffin_zmaid_2nd", 1 ],
+      [ "zmd_closed_coffin_zmaid_3rd", 1 ],
+      [ "zmd_closed_coffin_zmaid_4th", 1 ],
+      [ "zmd_closed_coffin_amigara", 1 ],
+      [ "zmd_closed_coffin_mom", 1 ],
+      [ "zmd_closed_coffin_bat", 1 ],
+      [ "zmd_closed_coffin_survivor", 1 ],
+      [ "zmd_closed_coffin_swimmer", 1 ],
+      [ "zmd_closed_coffin_b_shocker", 1 ],
+      [ "zmd_closed_coffin_blob", 1 ],
+      [ "zmd_closed_coffin_f_tower", 1 ],
+      [ "zmd_closed_coffin_dog_t", 1 ],
+      [ "zmd_closed_coffin_necro", 1 ],
+      [ "zmd_closed_coffin_maid_t", 1 ]
     ]
-  }
-
-
-
-
-  ,{
+  },
+  {
     "//": "■ゾンビ系の汎用ドロップアイテム枠に「ゾンビメイドレシピ本」追加（グループの上書きではなく追加となる模様？）（damage: 破損状態の下限上限、prob: 出現率を設定）",
     "id": "default_zombie_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    
-    "entries": [
-      { "group": "zmd_zmaid_book_drops", "damage": [ 0, 4 ], "prob": 1 }
-    ]
-  }
-  ,{
+    "entries": [ { "group": "zmd_zmaid_book_drops", "damage": [ 0, 4 ], "prob": 1 } ]
+  },
+  {
     "//": "■ゾンビ技師のアイテムドロップ枠に「ゾンビメイドレシピ本＋α」追加",
     "id": "mon_zombie_technician_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    
-    "entries": [
-      { "group": "zmd_zmaid_tec_drops", "damage": [ 1, 4 ], "prob": 15 }
-    ]
-  }
-  ,{
+    "entries": [ { "group": "zmd_zmaid_tec_drops", "damage": [ 1, 4 ], "prob": 15 } ]
+  },
+  {
     "//": "■ゾンビ科学者のアイテムドロップ枠に「ゾンビメイド作成レシピ本＋α」追加　（確認できてないけど科学者系の惨劇跡地にも出るかも？）",
     "id": "mon_zombie_scientist_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    
-    "entries": [
-      { "group": "zmd_zmaid_tec_drops", "prob": 25 }
-    ]
-  }
-  ,{
+    "entries": [ { "group": "zmd_zmaid_tec_drops", "prob": 25 } ]
+  },
+  {
     "//": "■巨体ゾンビのアイテムドロップ枠に「閉じた棺」追加　",
     "id": "mon_zombie_hulk_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    
-    "entries": [
-      { "group": "zmd_close_coffin_drops", "damage": [ 0, 1 ], "prob": 40 }
-    ]
-  }
-  ,{
+    "entries": [ { "group": "zmd_close_coffin_drops", "damage": [ 0, 1 ], "prob": 40 } ]
+  },
+  {
     "//": "■サバイバーゾンビのアイテムドロップ枠に「閉じた棺」追加",
     "id": "mon_zombie_survivor_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    
-    "entries": [
-      { "group": "zmd_close_coffin_drops", "damage": [ 0, 1 ], "prob": 10 }
-    ]
+    "entries": [ { "group": "zmd_close_coffin_drops", "damage": [ 0, 1 ], "prob": 10 } ]
   }
-
-
-
-
-
 ]

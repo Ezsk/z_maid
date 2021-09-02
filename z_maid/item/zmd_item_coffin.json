@@ -12,9 +12,7 @@
     "material": [ "wood", "leather" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "torso" ],
-    "coverage": 50,
-    "encumbrance": 20,
+    "armor": [ { "encumbrance": 20, "coverage": 50, "covers": [ "torso" ] } ],
     "pocket_data": [
       {
         "rigid": false,

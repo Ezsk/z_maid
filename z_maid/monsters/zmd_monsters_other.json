@@ -23,7 +23,7 @@
     "armor_bash": 4,
     "armor_cut": 8,
     "revert_to_itype": "zmd_bot_prototype_cleaner",
-    "death_function": [ "EXPLODE" ],
+    "death_function": { "effect": { "id": "death_boomer", "hit_self": true }, "message": "A %s explode!", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "ELECTRONIC", "NO_BREATHE", "FLIES", "ABSORBS" ]
   },
   {
@@ -46,7 +46,7 @@
     "starting_ammo": { "maid_dress": 1 },
     "harvest": "exempt",
     "special_attacks": [ [ "DOGTHING", 60 ] ],
-    "death_function": [ "BOOMER", "THING" ],
+    "death_function": { "effect": { "id": "death_thing", "hit_self": true }, "corpse_type": "NO_CORPSE", "message": "The %s emerges!" },
     "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "WARM" ]
   }
 ]

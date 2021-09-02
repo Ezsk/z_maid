@@ -1,115 +1,102 @@
 [
   {
-      "id" : "zmd_sleeping_z_maid_3rd",
-      "copy-from": "zmd_sleeping_z_maid_1st",
-      "type": "TOOL",
-      "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \n(装備：モップ)",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_3rd",
-          "difficulty": 0,
-          "skills": [ "speech" ],
-          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
-          "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
-          "place_randomly": true,
-          "moves": 120
-      }
+    "id": "zmd_sleeping_z_maid_3rd",
+    "copy-from": "zmd_sleeping_z_maid_1st",
+    "type": "TOOL",
+    "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \n(装備：モップ)",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_3rd",
+      "difficulty": 0,
+      "skills": [ "speech" ],
+      "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+      "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "id" : "zmd_sleeping_z_maid_3rd_A1",
-      "copy-from": "zmd_sleeping_z_maid_1st_A1",
-      "type": "TOOL",
-      "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A1 \n(装備：六尺棒)",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_3rd_A1",
-          "difficulty": 1,
-          "skills": [ "speech" ],
-          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
-          "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
-          "place_randomly": true,
-          "moves": 120
-      }
+    "id": "zmd_sleeping_z_maid_3rd_A1",
+    "copy-from": "zmd_sleeping_z_maid_1st_A1",
+    "type": "TOOL",
+    "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A1 \n(装備：六尺棒)",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_3rd_A1",
+      "difficulty": 1,
+      "skills": [ "speech" ],
+      "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+      "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "id" : "zmd_sleeping_z_maid_3rd_A2",
-      "copy-from": "zmd_sleeping_z_maid_1st_A2",
-      "type": "TOOL",
-      "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A2 \n(装備：ウォーハンマー、特性：電撃)",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_3rd_A2",
-          "difficulty": 2,
-          "skills": [ "speech" ],
-          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
-          "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
-          "place_randomly": true,
-          "moves": 120
-      }
+    "id": "zmd_sleeping_z_maid_3rd_A2",
+    "copy-from": "zmd_sleeping_z_maid_1st_A2",
+    "type": "TOOL",
+    "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A2 \n(装備：ウォーハンマー、特性：電撃)",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_3rd_A2",
+      "difficulty": 2,
+      "skills": [ "speech" ],
+      "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+      "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "id" : "zmd_sleeping_z_maid_3rd_A3",
-      "copy-from": "zmd_sleeping_z_maid_1st_A3",
-      "type": "TOOL",
-      "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
-      "description" : "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A3 \n(装備：ウォーハンマー、特性：電撃・修復)",
-      
-      "use_action": {
-          "type": "place_monster",
-          "monster_id": "mon_zmd_z_maid_3rd_A3",
-          "difficulty": 2,
-          "skills": [ "speech" ],
-          "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
-          "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
-          "place_randomly": true,
-          "moves": 120
-      }
-  },
-
-
-
-  {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_3rd",
-      "copy-from": "zmd_repair_z_maid_1st",
-      "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。"
+    "id": "zmd_sleeping_z_maid_3rd_A3",
+    "copy-from": "zmd_sleeping_z_maid_1st_A3",
+    "type": "TOOL",
+    "name": "ゾンビメイド３号(停止中)<color_light_blue>[z_maid]</color>",
+    "description": "禁断の技術で作られたゾンビメイド３号。 \n今は静かに眠っています。 \nType_A3 \n(装備：ウォーハンマー、特性：電撃・修復)",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zmd_z_maid_3rd_A3",
+      "difficulty": 2,
+      "skills": [ "speech" ],
+      "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
+      "friendly_msg": "３号はゆっくりと起き上がり、ペコリと礼をしてきました。",
+      "place_randomly": true,
+      "moves": 120
+    }
   },
   {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_3rd_A1",
-      "copy-from": "zmd_repair_z_maid_1st_A1",
-      "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A1"
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_3rd",
+    "copy-from": "zmd_repair_z_maid_1st",
+    "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。"
   },
   {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_3rd_A2",
-      "copy-from": "zmd_repair_z_maid_1st_A2",
-      "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A2"
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_3rd_A1",
+    "copy-from": "zmd_repair_z_maid_1st_A1",
+    "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A1"
   },
   {
-      "type": "GENERIC",
-      "category": "other",
-      "id": "zmd_repair_z_maid_3rd_A3",
-      "copy-from": "zmd_repair_z_maid_1st_A3",
-      "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
-      "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A3"
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_3rd_A2",
+    "copy-from": "zmd_repair_z_maid_1st_A2",
+    "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A2"
+  },
+  {
+    "type": "GENERIC",
+    "category": "other",
+    "id": "zmd_repair_z_maid_3rd_A3",
+    "copy-from": "zmd_repair_z_maid_1st_A3",
+    "name": "ゾンビメイド３号(破損)<color_light_blue>[z_maid]</color>",
+    "description": "ゾンビメイド３号は機能停止しており修復しなければ動きそうにありません。 \nType_A3"
   }
-  
-  
-  
-  
-  
-  
 ]

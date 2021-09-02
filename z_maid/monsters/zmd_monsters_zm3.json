@@ -24,8 +24,7 @@
     "special_attacks": [ [ "LUNGE", 14 ] ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd",
     "death_drops": "zmd_mon_z_maid_3rd_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "BIRDFOOD" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "BIRDFOOD", "GUILT" ]
   },
   {
     "id": "mon_zmd_z_maid_3rd_A1",
@@ -49,8 +48,7 @@
     "special_attacks": [ [ "LUNGE", 12 ] ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A1",
     "death_drops": "zmd_mon_z_maid_3rd_A1_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "GUILT" ]
   },
   {
     "id": "mon_zmd_z_maid_3rd_A2",
@@ -77,8 +75,7 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A2",
     "death_drops": "zmd_mon_z_maid_3rd_A2_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC", "GUILT" ]
   },
   {
     "id": "mon_zmd_z_maid_3rd_A3",
@@ -107,7 +104,6 @@
     "special_when_hit": [ "ZAPBACK", 70 ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A3",
     "death_drops": "zmd_mon_z_maid_3rd_A3_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC", "GUILT" ]
   }
 ]

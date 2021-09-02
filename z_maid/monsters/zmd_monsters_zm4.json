@@ -29,8 +29,7 @@
     "starting_ammo": { "milk": 2 },
     "revert_to_itype": "",
     "death_drops": "zmd_mon_z_maid_4th_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CATTLEFODDER", "MILKABLE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CATTLEFODDER", "MILKABLE", "GUILT" ]
   },
   {
     "id": "mon_zmd_z_maid_4th_Neo",
@@ -79,7 +78,6 @@
     "starting_ammo": {  },
     "revert_to_itype": "zmd_sleeping_z_maid_4th_Neo",
     "death_drops": "zmd_mon_z_maid_4th_Neo_drops",
-    "death_function": [ "GUILT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CATTLEFODDER" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CATTLEFODDER", "GUILT" ]
   }
 ]
