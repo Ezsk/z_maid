@@ -29,7 +29,12 @@
     "starting_ammo": { "milk": 2 },
     "revert_to_itype": "",
     "death_drops": "zmd_mon_z_maid_4th_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CATTLEFODDER", "MILKABLE", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CANPLAY", "MILKABLE", "GUILT" ],
+    "petfood": {
+      "food": [ "CATTLEFOOD" ],
+      "feed": "%s はゆっくりとそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はそっと腕を絡ませてきた。なるほど豊かである。"
+    }
   },
   {
     "id": "mon_zmd_z_maid_4th_Neo",
@@ -78,6 +83,11 @@
     "starting_ammo": {  },
     "revert_to_itype": "zmd_sleeping_z_maid_4th_Neo",
     "death_drops": "zmd_mon_z_maid_4th_Neo_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CATTLEFODDER", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "GUILT" ],
+    "petfood": {
+      "food": [ "CATTLEFOOD" ],
+      "feed": "%s はゆっくりとそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はそっと腕を絡ませてきた。なるほど豊かである。"
+    }
   }
 ]

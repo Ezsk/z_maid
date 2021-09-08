@@ -24,7 +24,12 @@
     "special_attacks": [ [ "LUNGE", 14 ] ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd",
     "death_drops": "zmd_mon_z_maid_3rd_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "BIRDFOOD", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "CANPLAY", "GUILT" ],
+    "petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "%s に鳥の餌を与えてみると、彼女は夢中でそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はパタパタと貴方の周りを駆け回っている。"
+    }
   },
   {
     "id": "mon_zmd_z_maid_3rd_A1",
@@ -48,7 +53,12 @@
     "special_attacks": [ [ "LUNGE", 12 ] ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A1",
     "death_drops": "zmd_mon_z_maid_3rd_A1_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "GUILT" ],
+    "petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "%s に鳥の餌を与えてみると、彼女は夢中でそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はパタパタと貴方の周りを駆け回っている。"
+    }
   },
   {
     "id": "mon_zmd_z_maid_3rd_A2",
@@ -75,7 +85,12 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A2",
     "death_drops": "zmd_mon_z_maid_3rd_A2_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "ELECTRIC", "GUILT" ],
+    "petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "%s に鳥の餌を与えてみると、彼女は夢中でそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はパタパタと貴方の周りを駆け回っている。"
+    }
   },
   {
     "id": "mon_zmd_z_maid_3rd_A3",
@@ -104,6 +119,11 @@
     "special_when_hit": [ "ZAPBACK", 70 ],
     "revert_to_itype": "zmd_sleeping_z_maid_3rd_A3",
     "death_drops": "zmd_mon_z_maid_3rd_A3_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "BIRDFOOD", "ELECTRIC", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "ELECTRIC", "GUILT" ],
+    "petfood": {
+      "food": [ "BIRDFOOD" ],
+      "feed": "%s に鳥の餌を与えてみると、彼女は夢中でそれを食べ始めた。大変お気に召した様子だ。",
+      "pet": "%s はパタパタと貴方の周りを駆け回っている。"
+    }
   }
 ]
