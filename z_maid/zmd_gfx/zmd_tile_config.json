@@ -26,14 +26,25 @@
             "fg": 35
           },
           {
-            "id": [ "overlay_wielded_zmd_sleeping_z_maid_1st", "overlay_wielded_zmd_sleeping_z_maid_1st_A1", "overlay_wielded_zmd_sleeping_z_maid_1st_A2", "overlay_wielded_zmd_sleeping_z_maid_1st_A3" ],
+            "id": [
+              "overlay_wielded_zmd_sleeping_z_maid_1st",
+              "overlay_wielded_zmd_sleeping_z_maid_1st_A1",
+              "overlay_wielded_zmd_sleeping_z_maid_1st_A2",
+              "overlay_wielded_zmd_sleeping_z_maid_1st_A3"
+            ],
             "fg": 35
           },
           {
             "id": [ "zmd_repair_z_maid_1st", "zmd_repair_z_maid_1st_A1", "zmd_repair_z_maid_1st_A2", "zmd_repair_z_maid_1st_A3" ],
             "fg": 35
-          },          {
-            "id": [ "overlay_wielded_zmd_repair_z_maid_1st", "overlay_wielded_zmd_repair_z_maid_1st_A1", "overlay_wielded_zmd_repair_z_maid_1st_A2", "overlay_wielded_zmd_repair_z_maid_1st_A3" ],
+          },
+          {
+            "id": [
+              "overlay_wielded_zmd_repair_z_maid_1st",
+              "overlay_wielded_zmd_repair_z_maid_1st_A1",
+              "overlay_wielded_zmd_repair_z_maid_1st_A2",
+              "overlay_wielded_zmd_repair_z_maid_1st_A3"
+            ],
             "fg": 35
           },
           { "id": "mon_zmd_z_maid_2nd", "fg": 48, "bg": 0 },
@@ -49,11 +60,21 @@
             "fg": 51
           },
           {
-            "id": [ "overlay_wielded_zmd_sleeping_z_maid_2nd", "overlay_wielded_zmd_sleeping_z_maid_2nd_A1", "overlay_wielded_zmd_sleeping_z_maid_2nd_A2", "overlay_wielded_zmd_sleeping_z_maid_2nd_A3" ],
+            "id": [
+              "overlay_wielded_zmd_sleeping_z_maid_2nd",
+              "overlay_wielded_zmd_sleeping_z_maid_2nd_A1",
+              "overlay_wielded_zmd_sleeping_z_maid_2nd_A2",
+              "overlay_wielded_zmd_sleeping_z_maid_2nd_A3"
+            ],
             "fg": 51
           },
           {
-            "id": [ "overlay_wielded_zmd_repair_z_maid_2nd", "overlay_wielded_zmd_repair_z_maid_2nd_A1", "overlay_wielded_zmd_repair_z_maid_2nd_A2", "overlay_wielded_zmd_repair_z_maid_2nd_A3" ],
+            "id": [
+              "overlay_wielded_zmd_repair_z_maid_2nd",
+              "overlay_wielded_zmd_repair_z_maid_2nd_A1",
+              "overlay_wielded_zmd_repair_z_maid_2nd_A2",
+              "overlay_wielded_zmd_repair_z_maid_2nd_A3"
+            ],
             "fg": 51
           },
           { "id": "mon_zmd_z_maid_3rd", "fg": 64, "bg": 0 },
@@ -69,22 +90,77 @@
             "fg": 67
           },
           {
-            "id": [ "overlay_wielded_zmd_sleeping_z_maid_3rd", "overlay_wielded_zmd_sleeping_z_maid_3rd_A1", "overlay_wielded_zmd_sleeping_z_maid_3rd_A2", "overlay_wielded_zmd_sleeping_z_maid_3rd_A3" ],
+            "id": [
+              "overlay_wielded_zmd_sleeping_z_maid_3rd",
+              "overlay_wielded_zmd_sleeping_z_maid_3rd_A1",
+              "overlay_wielded_zmd_sleeping_z_maid_3rd_A2",
+              "overlay_wielded_zmd_sleeping_z_maid_3rd_A3"
+            ],
             "fg": 67
           },
           {
-            "id": [ "overlay_wielded_zmd_repair_z_maid_3rd", "overlay_wielded_zmd_repair_z_maid_3rd_A1", "overlay_wielded_zmd_repair_z_maid_3rd_A2", "overlay_wielded_zmd_repair_z_maid_3rd_A3" ],
+            "id": [
+              "overlay_wielded_zmd_repair_z_maid_3rd",
+              "overlay_wielded_zmd_repair_z_maid_3rd_A1",
+              "overlay_wielded_zmd_repair_z_maid_3rd_A2",
+              "overlay_wielded_zmd_repair_z_maid_3rd_A3"
+            ],
             "fg": 67
           },
           { "id": "mon_zmd_z_maid_4th", "fg": 80, "bg": 0 },
           { "id": "mon_zmd_z_maid_4th_Neo", "fg": 80, "bg": 0 },
           { "id": [ "zmd_sleeping_z_maid_4th", "zmd_sleeping_z_maid_4th_Neo" ], "fg": 83 },
           { "id": [ "zmd_repair_z_maid_4th", "zmd_repair_z_maid_4th_Neo" ], "fg": 83 },
-          { "id": [ "overlay_wielded_zmd_sleeping_z_maid_4th", "overlay_wielded_zmd_sleeping_z_maid_4th_Neo" ], "fg": 83 },
+          {
+            "id": [ "overlay_wielded_zmd_sleeping_z_maid_4th", "overlay_wielded_zmd_sleeping_z_maid_4th_Neo" ],
+            "fg": 83
+          },
           { "id": [ "overlay_wielded_zmd_repair_z_maid_4th", "overlay_wielded_zmd_repair_z_maid_4th_Neo" ], "fg": 83 },
           { "id": "mon_zmd_maid_thing", "fg": 112, "bg": 0 },
-          { "id": "zmd_coffin_ex", "fg": 163, "bg": 164 },
-          { "id": "overlay_wielded_zmd_coffin_ex", "fg": 163, "bg": 164 },
+          {
+            "id": [
+              "zmd_coffin_ex",
+              "zmd_closed_coffin_zmaid_1st",
+              "zmd_closed_coffin_zmaid_2nd",
+              "zmd_closed_coffin_zmaid_3rd",
+              "zmd_closed_coffin_zmaid_4th",
+              "zmd_closed_coffin_amigara",
+              "zmd_closed_coffin_mom",
+              "zmd_closed_coffin_bat",
+              "zmd_closed_coffin_survivor",
+              "zmd_closed_coffin_swimmer",
+              "zmd_closed_coffin_b_shocker",
+              "zmd_closed_coffin_blob",
+              "zmd_closed_coffin_f_tower",
+              "zmd_closed_coffin_dog_t",
+              "zmd_closed_coffin_necro",
+              "zmd_closed_coffin_maid_t"
+            ],
+            "fg": 163,
+            "bg": 164
+          },
+          {
+            "id": [
+              "overlay_wielded_zmd_coffin_ex",
+              "overlay_wielded_zmd_closed_coffin_zmaid_1st",
+              "overlay_wielded_zmd_closed_coffin_zmaid_2nd",
+              "overlay_wielded_zmd_closed_coffin_zmaid_3rd",
+              "overlay_wielded_zmd_closed_coffin_zmaid_4th",
+              "overlay_wielded_zmd_closed_coffin_amigara",
+              "overlay_wielded_zmd_closed_coffin_mom",
+              "overlay_wielded_zmd_closed_coffin_bat",
+              "overlay_wielded_zmd_closed_coffin_survivor",
+              "overlay_wielded_zmd_closed_coffin_swimmer",
+              "overlay_wielded_zmd_closed_coffin_b_shocker",
+              "overlay_wielded_zmd_closed_coffin_blob",
+              "overlay_wielded_zmd_closed_coffin_f_tower",
+              "overlay_wielded_zmd_closed_coffin_dog_t",
+              "overlay_wielded_zmd_closed_coffin_necro",
+              "overlay_wielded_zmd_closed_coffin_maid_t"
+            ],
+            "fg": 163,
+            "bg": 164
+          },
           {
             "id": "vp_zmd_coffin_ex_vh",
             "fg": 163,
