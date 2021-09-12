@@ -3,194 +3,108 @@
     "//": "■ゾンビメイド１号(停止中)　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_1st",
     "id_suffix": "blob_repair_1st",
-
     "book_learn": [ [ "zmd_strange_book_fragment_1", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_1st", 1 ], [ "zmd_repair_z_maid_1st", 1 ] ],
-      [ [ "slime_scrap", 12 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_1st", 1 ], [ "zmd_repair_z_maid_1st", 1 ] ], [ [ "slime_scrap", 1 ] ] ]
   },
   {
     "//": "■ゾンビメイド１号(停止中) Type_A1　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_1st_A1",
     "id_suffix": "blob_repair_1st_A1",
-
     "book_learn": [ [ "zmd_strange_book_fragment_1", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_1st_A1", 1 ], [ "zmd_repair_z_maid_1st_A1", 1 ] ],
-      [ [ "slime_scrap", 15 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_1st_A1", 1 ], [ "zmd_repair_z_maid_1st_A1", 1 ] ], [ [ "slime_scrap", 2 ] ] ]
   },
   {
     "//": "■ゾンビメイド１号(停止中) Type_A2　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_1st_A2",
     "id_suffix": "blob_repair_1st_A2",
-
     "book_learn": [ [ "zmd_strange_book_fragment_1", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_1st_A2", 1 ], [ "zmd_repair_z_maid_1st_A2", 1 ] ],
-      [ [ "slime_scrap", 18 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_1st_A2", 1 ], [ "zmd_repair_z_maid_1st_A2", 1 ] ], [ [ "slime_scrap", 3 ] ] ]
   },
   {
     "//": "■ゾンビメイド１号(停止中) Type_A3　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_1st_A3",
     "id_suffix": "blob_repair_1st_A3",
-
     "book_learn": [ [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_1st_A3", 1 ], [ "zmd_repair_z_maid_1st_A3", 1 ] ],
-      [ [ "slime_scrap", 20 ] ]
-    ]
-  }
-
-
-
-
-
-  ,{
+    "components": [ [ [ "zmd_sleeping_z_maid_1st_A3", 1 ], [ "zmd_repair_z_maid_1st_A3", 1 ] ], [ [ "slime_scrap", 4 ] ] ]
+  },
+  {
     "//": "■ゾンビメイド２号(停止中)　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_2nd",
     "id_suffix": "blob_repair_2nd",
-
     "book_learn": [ [ "zmd_strange_book_fragment_2", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_2nd", 1 ], [ "zmd_repair_z_maid_2nd", 1 ] ],
-      [ [ "slime_scrap", 12 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_2nd", 1 ], [ "zmd_repair_z_maid_2nd", 1 ] ], [ [ "slime_scrap", 1 ] ] ]
   },
   {
     "//": "■ゾンビメイド２号(停止中) Type_A1　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_2nd_A1",
     "id_suffix": "blob_repair_2nd_A1",
-
     "book_learn": [ [ "zmd_strange_book_fragment_2", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_2nd_A1", 1 ], [ "zmd_repair_z_maid_2nd_A1", 1 ] ],
-      [ [ "slime_scrap", 15 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_2nd_A1", 1 ], [ "zmd_repair_z_maid_2nd_A1", 1 ] ], [ [ "slime_scrap", 2 ] ] ]
   },
   {
     "//": "■ゾンビメイド２号(停止中) Type_A2　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_2nd_A2",
     "id_suffix": "blob_repair_2nd_A2",
-
     "book_learn": [ [ "zmd_strange_book_fragment_2", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_2nd_A2", 1 ], [ "zmd_repair_z_maid_2nd_A2", 1 ] ],
-      [ [ "slime_scrap", 18 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_2nd_A2", 1 ], [ "zmd_repair_z_maid_2nd_A2", 1 ] ], [ [ "slime_scrap", 3 ] ] ]
   },
   {
     "//": "■ゾンビメイド２号(停止中) Type_A3　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_2nd_A3",
     "id_suffix": "blob_repair_2nd_A3",
-
     "book_learn": [ [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_2nd_A3", 1 ], [ "zmd_repair_z_maid_2nd_A3", 1 ] ],
-      [ [ "slime_scrap", 20 ] ]
-    ]
-  }
-
-
-
-
-
-  ,{
+    "components": [ [ [ "zmd_sleeping_z_maid_2nd_A3", 1 ], [ "zmd_repair_z_maid_2nd_A3", 1 ] ], [ [ "slime_scrap", 4 ] ] ]
+  },
+  {
     "//": "■ゾンビメイド３号(停止中)　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_3rd",
     "id_suffix": "blob_repair_3rd",
-
     "book_learn": [ [ "zmd_strange_book_fragment_3", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_3rd", 1 ], [ "zmd_repair_z_maid_3rd", 1 ] ],
-      [ [ "slime_scrap", 12 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_3rd", 1 ], [ "zmd_repair_z_maid_3rd", 1 ] ], [ [ "slime_scrap", 1 ] ] ]
   },
   {
     "//": "■ゾンビメイド３号(停止中) Type_A1　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_3rd_A1",
     "id_suffix": "blob_repair_3rd_A1",
-
     "book_learn": [ [ "zmd_strange_book_fragment_3", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_3rd_A1", 1 ], [ "zmd_repair_z_maid_3rd_A1", 1 ] ],
-      [ [ "slime_scrap", 15 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_3rd_A1", 1 ], [ "zmd_repair_z_maid_3rd_A1", 1 ] ], [ [ "slime_scrap", 2 ] ] ]
   },
   {
     "//": "■ゾンビメイド３号(停止中) Type_A2　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_3rd_A2",
     "id_suffix": "blob_repair_3rd_A2",
-
     "book_learn": [ [ "zmd_strange_book_fragment_3", 0 ], [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_3rd_A2", 1 ], [ "zmd_repair_z_maid_3rd_A2", 1 ] ],
-      [ [ "slime_scrap", 18 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_3rd_A2", 1 ], [ "zmd_repair_z_maid_3rd_A2", 1 ] ], [ [ "slime_scrap", 3 ] ] ]
   },
   {
     "//": "■ゾンビメイド３号(停止中) Type_A3　ブロブ修復レシピ",
     "type": "recipe",
     "copy-from": "base_zmd_blob_repair",
-
     "result": "zmd_sleeping_z_maid_3rd_A3",
     "id_suffix": "blob_repair_3rd_A3",
-
     "book_learn": [ [ "zmd_craft_guide_maiden", 0 ] ],
-
-    "components": [
-      [ [ "zmd_sleeping_z_maid_3rd_A3", 1 ], [ "zmd_repair_z_maid_3rd_A3", 1 ] ],
-      [ [ "slime_scrap", 20 ] ]
-    ]
+    "components": [ [ [ "zmd_sleeping_z_maid_3rd_A3", 1 ], [ "zmd_repair_z_maid_3rd_A3", 1 ] ], [ [ "slime_scrap", 4 ] ] ]
   }
-
-
-
-
 ]
