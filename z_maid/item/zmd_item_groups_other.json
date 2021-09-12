@@ -80,5 +80,22 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "group": "zmd_close_coffin_drops", "damage": [ 0, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "zsm_grave_maids",
+    "items": [
+      [ "zmd_repair_z_maid_1st", 1 ],
+      [ "zmd_repair_z_maid_2nd", 1 ],
+      [ "zmd_repair_z_maid_3rd", 1 ],
+      [ "zmd_repair_z_maid_4th", 1 ]
+    ]
+  },
+  {
+    "id": "grave",
+    "type": "item_group",
+    "items": [
+      { "group": "zsm_grave_maids", "prob": 35 }
+     ]
   }
 ]
