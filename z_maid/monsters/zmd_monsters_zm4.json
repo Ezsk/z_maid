@@ -26,7 +26,7 @@
     "fear_triggers": [ "FIRE" ],
     "special_attacks": [ [ "scratch", 6 ], [ "SMASH", 15 ], [ "DANCE", 10 ], [ "SHRIEK_ALERT", 18 ], [ "SHRIEK_STUN", 1 ] ],
     "attack_effs": [ { "id": "efe_zmd_4th_charm", "duration": 6, "chance": 10 } ],
-    "starting_ammo": { "milk": 2 },
+    "starting_ammo": { "milk_raw": 40 },
     "revert_to_itype": "",
     "death_drops": "zmd_mon_z_maid_4th_drops",
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "CANPLAY", "MILKABLE", "GUILT" ],
