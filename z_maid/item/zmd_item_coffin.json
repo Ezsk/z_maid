@@ -81,7 +81,8 @@
       "friendly_msg": "棺の中にいた者が起き上がり、周囲を警戒し始めました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
       "moves": 60,
-      "place_randomly": true
+      "place_randomly": true,
+      "is_pet": true
     }
   },
   {
@@ -97,7 +98,8 @@
       "friendly_msg": "棺の中にいた者が起き上がり、元気そうにジャンプしました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
       "moves": 60,
-      "place_randomly": true
+      "place_randomly": true,
+      "is_pet": true
     }
   },
   {
@@ -113,7 +115,8 @@
       "friendly_msg": "棺の中にいた者が起き上がり、ペコリと礼をしてきました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
       "moves": 60,
-      "place_randomly": true
+      "place_randomly": true,
+      "is_pet": true
     }
   },
   {
@@ -129,7 +132,8 @@
       "friendly_msg": "棺の中にいた者が起き上がり、こちらを見てニコリと微笑みました。",
       "hostile_msg": "棺から何者かが飛び出し襲い掛かってきました！！",
       "moves": 60,
-      "place_randomly": true
+      "place_randomly": true,
+      "is_pet": true
     }
   },
   {
