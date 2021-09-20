@@ -8,12 +8,13 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_2nd",
-      "difficulty": 0,
+      "difficulty": 2,
       "skills": [ "speech" ],
       "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
       "friendly_msg": "２号はがばりと起き上がり、元気そうにジャンプしました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {
@@ -25,12 +26,13 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_2nd_A1",
-      "difficulty": 1,
+      "difficulty": 2,
       "skills": [ "speech" ],
       "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
       "friendly_msg": "２号はがばりと起き上がり、元気そうにジャンプしました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {
@@ -42,12 +44,13 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_2nd_A2",
-      "difficulty": 2,
+      "difficulty": 3,
       "skills": [ "speech" ],
       "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
       "friendly_msg": "２号はがばりと起き上がり、元気そうにジャンプしました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {
@@ -59,12 +62,13 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zmd_z_maid_2nd_A3",
-      "difficulty": 2,
+      "difficulty": 4,
       "skills": [ "speech" ],
       "hostile_msg": "ゾンビメイドはこちらに襲い掛かってきました！",
       "friendly_msg": "２号はがばりと起き上がり、元気そうにジャンプしました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {

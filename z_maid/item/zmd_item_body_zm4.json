@@ -13,7 +13,8 @@
       "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
       "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {
@@ -30,7 +31,8 @@
       "hostile_msg": "４号はニヤリと獰猛な笑みを浮かべました！",
       "friendly_msg": "４号は静かに起き上がり、こちらを見てニコリと微笑みました。",
       "place_randomly": true,
-      "moves": 120
+      "moves": 120,
+      "is_pet": true
     }
   },
   {
@@ -42,7 +44,7 @@
     "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。",
     "use_action": {
       "type": "delayed_transform",
-      "transform_age": 2000,
+      "transform_age": 64800,
       "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
       "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
       "moves": 60,
@@ -58,7 +60,7 @@
     "description": "ゾンビメイド４号は静かに眠っています。 \n傷ついた体が見る間に修復されています。 \n※改造済み",
     "use_action": {
       "type": "delayed_transform",
-      "transform_age": 2000,
+      "transform_age": 64800,
       "not_ready_msg": "傷の修復が完璧でないのか眠ったままです。",
       "msg": "４号の状態を確認したところ傷の修復は完了しているようです！",
       "moves": 60,
