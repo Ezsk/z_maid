@@ -6,9 +6,9 @@
         "desc": ["ぼんやりと上の空になっており頭が上手く回りません。"],
         "//": "effect ってモブに効果出てるのか不明だけどまあいいか",
         
-        "apply_message": "あなたはゾンビメイドの姿に意識を奪われた！",
+        "apply_message": "%sはゾンビメイドの姿に意識を奪われた！",
         "miss_messages": [["攻撃に意識を集中できない！", 5]],
-        "remove_message": "あなたは煩悩を打ち払った。",
+        "remove_message": "%sは煩悩を打ち払った。",
         
         "rating": "bad",
         "resist_traits": ["PSYCHOPATH"],

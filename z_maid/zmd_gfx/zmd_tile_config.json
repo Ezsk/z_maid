@@ -180,7 +180,7 @@
       },
       {
         "file": "./zmd_gfx/zmaid_effect_32x32.png",
-        "tiles": [ { "id": "overlay_effect_efe_zmd_4th_charm", "fg": 320 } ],
+        "tiles": [ { "id": "overlay_effect_efe_zmd_4th_charm", "fg": 0 } ],
         "sprite_width": 32,
         "sprite_height": 32,
         "sprite_offset_x": -10,
