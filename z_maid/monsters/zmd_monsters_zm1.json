@@ -29,6 +29,7 @@
     "vision_night": 6,
     "special_attacks": [ [ "LUNGE", 10 ] ],
     "attack_effs": [ { "id": "stunned", "duration": 8, "chance": 5 } ],
+    "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_sharp": true },
     "harvest": "exempt",
     "revert_to_itype": "zmd_sleeping_z_maid_1st",
     "death_drops": "zmd_mon_z_maid_1st_drops",
@@ -36,7 +37,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_1", "CANPLAY", "GUILT" ],
     "petfood": {
       "food": [ "DOGFOOD" ],
-      "feed": "%s は落ち着いた様子でドッグフードをポケットにしまったが、尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
+      "feed": "%sは素早く姿勢を正し、ドッグフードをポケットにしまった。尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
       "pet": "頭をそっと撫でてみると %s はうっとりとした目で体を寄せてきた。見た目には可憐だが意外に鼻息が荒いようだ。"
     }
   },
@@ -66,7 +67,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "GUILT" ],
     "petfood": {
       "food": [ "DOGFOOD" ],
-      "feed": "%s は落ち着いた様子でドッグフードをポケットにしまったが、尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
+      "feed": "%sは素早く姿勢を正し、ドッグフードをポケットにしまった。尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
       "pet": "頭をそっと撫でてみると %s はうっとりとした目で体を寄せてきた。見た目には可憐だが意外に鼻息が荒いようだ。"
     }
   },
@@ -107,7 +108,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "GUILT" ],
     "petfood": {
       "food": [ "DOGFOOD" ],
-      "feed": "%s は落ち着いた様子でドッグフードをポケットにしまったが、尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
+      "feed": "%sは素早く姿勢を正し、ドッグフードをポケットにしまった。尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
       "pet": "頭をそっと撫でてみると %s はうっとりとした目で体を寄せてきた。見た目には可憐だが意外に鼻息が荒いようだ。"
     }
   },
@@ -150,7 +151,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "PATH_AVOID_DANGER_2", "CANPLAY", "GUILT" ],
     "petfood": {
       "food": [ "DOGFOOD" ],
-      "feed": "%s は落ち着いた様子でドッグフードをポケットにしまったが、尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
+      "feed": "%sは素早く姿勢を正し、ドッグフードをポケットにしまった。尻尾は千切れんばかりにブンブンしている。あとで隠れて食べるつもりなのだろう。",
       "pet": "頭をそっと撫でてみると %s はうっとりとした目で体を寄せてきた。見た目には可憐だが意外に鼻息が荒いようだ。"
     }
   }
