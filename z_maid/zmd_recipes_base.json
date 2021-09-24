@@ -2,6 +2,8 @@
   {
     "abstract": "base_zmd_item_zm_r",
     "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
     "//": "■ アイテムレシピ_共通事項  autolearn:false 自動習得の無効",
     "autolearn" : false
   }
